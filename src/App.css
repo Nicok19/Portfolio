@@ -1,1 +1,56 @@
+.container {
+    display: flex;
+    flex-direction: row-reverse; 
+    justify-content: space-between;
+  }
+  
+  .navBar {
+    background-color: hsl(138, 55%, 66%);
+    width: 360px;
+    height: 100vh;
+  }
 
+.navBar ul{
+   margin-top: 200px; 
+}
+
+.navBar ul li{
+display: flex;
+justify-content: center;
+}
+
+.navBar ul li a{
+  margin-top: 35px;
+  color: #FFF;
+font-size: 35px;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+    }
+
+.navBar ul li a.active {
+color: #A09E9E; 
+      }
+
+    
+
+
+
+
+
+
+.socialMedia{
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+}
+
+  .socialMedia img{
+    width: 50px;
+   padding: 10px;
+  }
+
+  .socialMedia img:hover{
+   opacity: 0.5;
+  }
+  

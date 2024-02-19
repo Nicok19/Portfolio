@@ -1,5 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import './App.css';
+import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
 import Presentation from './Presentation';
 import Resume from './Resume';
 import Contact from './Contact';
@@ -8,22 +9,28 @@ import Portfolio from './Portfolio';
 function App() {
   return (
     <Router>
-      <div>
-        <nav>
+      <div className='container'>
+        <nav className='navBar'>
           <ul>
             <li>
-              <Link to="/">Presentación</Link>
+              <NavLink exact to="/" activeClassName="active">Presentación</NavLink>
             </li>
             <li>
-              <Link to="/resume">Currículum</Link>
+              <NavLink to="/resume" activeClassName="active">Currículum</NavLink>
             </li>
             <li>
-              <Link to="/portfolio">Portafolio</Link>
+              <NavLink to="/portfolio" activeClassName="active">Portafolio</NavLink>
             </li>
             <li>
-              <Link to="/contact">Contacto</Link>
+              <NavLink to="/contact" activeClassName="active">Contacto</NavLink>
             </li>
           </ul>
+
+          <div className='socialMedia'>
+            <a href="enlace_de_la_primera_imagen"><img src="/elements/linkedin.png" alt="Descripción de la primera imagen"/></a>
+            <a href="enlace_de_la_segunda_imagen"><img src="/elements/github.png" alt="Descripción de la segunda imagen"/></a>
+            <a href="enlace_de_la_tercera_imagen"><img src="/elements/behance.png" alt="Descripción de la tercera imagen"/></a>
+          </div>
         </nav>
 
         <Routes>
