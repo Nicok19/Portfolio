@@ -9,7 +9,11 @@ import Portfolio from './Portfolio';
 function App() {
   return (
     <Router>
+ 
       <div className='container'>
+     
+
+      
         <nav className='navBar'>
           <ul>
             <li>
@@ -33,13 +37,24 @@ function App() {
           </div>
         </nav>
 
-        <Routes>
+      <div className='elements'>
+        <header>
+    <h1>Nicolás Bertinat</h1>
+    <h4>Product Designer (ux/ui) and Front end Developer</h4>
+    </header>
+
+        <div className='routes'>
+        <Routes >
           <Route path="/" element={<Presentation />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        </div>
+</div>
       </div>
+
+   
     </Router>
   );
 }
