@@ -16,8 +16,8 @@ const Submenu = () => {
     return (
         <div className="cardCarousel">
             <div className='buttonCarrusel'>
-                <button id="videoButton" onClick={handleToggleVideo}>Video</button>
-                <button id="skillsButton" onClick={handleToggleSkills}>Skills</button>
+                <button className={`buttonStyle ${showVideo ? "activeButton" : ""}`} onClick={handleToggleVideo}>Video</button>
+                <button className={`buttonStyle ${!showVideo ? "activeButton" : ""}`} onClick={handleToggleSkills}>Skills</button>
             </div>
             <div className="card-container">
                 {showVideo ? <VideoComponent /> : <SkillsComponent />} 
@@ -27,3 +27,5 @@ const Submenu = () => {
 };
 
 export default Submenu;
+
+

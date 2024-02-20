@@ -31,7 +31,7 @@ line-height: normal;
     }
 
 .navBar ul li a.active {
-color: #A09E9E; 
+color: #007B24; 
       }
 
 
@@ -44,15 +44,19 @@ header{
 display: flex;
 justify-content:space-between;
 align-items: center;
+border-bottom: 1px solid #77D894;
+
 }
 
 header h1{
 padding-left: 60px;
-color: #A09E9E;
 font-size: 30px;
 font-style: normal;
-font-weight: 900;
-line-height: normal;
+font-weight: 500;
+font-style: italic;
+color: #77D894;
+margin-bottom: 20px;
+
 }
 
 header h4{
@@ -61,12 +65,11 @@ color: #A09E9E;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
-
+margin-bottom: 20px;
 }
 
 .routes{
-  margin-top: 110px;
+  margin-top: 50px;
   padding-left: 60px;
 }
 

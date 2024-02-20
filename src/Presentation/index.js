@@ -1,12 +1,13 @@
 import React from "react";
 import SubMenu from "./subMenu";
+import './PresentationStyles.css';
 
 const Presentation = () =>{
 
 
     return(
-        <div>
-            <h1>Presentacion</h1>
+        <div className="presentationElement">
+            <h1>Presentation</h1>
             <SubMenu/>
 
         </div>
