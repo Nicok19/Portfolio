@@ -17,7 +17,7 @@ function App() {
         <nav className='navBar'>
           <ul>
             <li>
-              <NavLink exact to="/" activeClassName="active">Presentación</NavLink>
+              <NavLink exact to="/" activeClassName="active">Presentation</NavLink>
             </li>
             <li>
               <NavLink to="/resume" activeClassName="active">Currículum</NavLink>
