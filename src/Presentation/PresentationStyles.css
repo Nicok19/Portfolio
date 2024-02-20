@@ -1,0 +1,41 @@
+.presentationElement h1{
+    color: #A09E9E;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.buttonStyle {
+    color: #A09E9E;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    margin-right: 15px;
+    background-color: #F5F5F5;
+    margin-top: 20px;
+}
+
+.activeButton {
+color: #77D894;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration-line: underline;
+}
+
+
+.videoElement{
+    margin: auto;
+}
+
+.videoElement video{
+  width: 800px;  
+  margin-top: 30px;
+}
+
+
+

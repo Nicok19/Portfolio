@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.container {
+    display: flex;
+    flex-direction: row-reverse; 
+    justify-content: space-between;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .navBar {
+    background-color: hsl(138, 55%, 66%);
+    width: 20%;
+    height: 100vh;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+.navBar ul{
+   margin-top: 200px; 
 }
+
+.navBar ul li{
+display: flex;
+justify-content: center;
+}
+
+.navBar ul li a{
+  margin-top: 35px;
+  color: #FFF;
+font-size: 35px;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+    }
+
+.navBar ul li a.active {
+color: #007B24; 
+      }
+
+
+.elements{
+  margin-top: 60px;
+  width: 80%;
+}
+
+header{
+display: flex;
+justify-content:space-between;
+align-items: center;
+border-bottom: 1px solid #77D894;
+
+}
+
+header h1{
+padding-left: 60px;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+font-style: italic;
+color: #77D894;
+margin-bottom: 20px;
+
+}
+
+header h4{
+padding-right: 40px;
+color: #A09E9E;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+margin-bottom: 20px;
+}
+
+.routes{
+  margin-top: 50px;
+  padding-left: 60px;
+}
+
+.socialMedia{
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+}
+
+  .socialMedia img{
+    width: 50px;
+   padding: 10px;
+  }
+
+  .socialMedia img:hover{
+   opacity: 0.5;
+  }
+  

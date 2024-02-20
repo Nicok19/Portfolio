@@ -1,25 +1,64 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
+import Presentation from './Presentation';
+import Resume from './Resume';
+import Contact from './Contact';
+import Portfolio from './Portfolio';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+ 
+      <div className='container'>
+     
+
+      
+        <nav className='navBar'>
+          <ul>
+            <li>
+              <NavLink exact to="/" activeClassName="active">Presentation</NavLink>
+            </li>
+            <li>
+              <NavLink to="/resume" activeClassName="active">Currículum</NavLink>
+            </li>
+            <li>
+              <NavLink to="/portfolio" activeClassName="active">Portafolio</NavLink>
+            </li>
+            <li>
+              <NavLink to="/contact" activeClassName="active">Contacto</NavLink>
+            </li>
+          </ul>
+
+          <div className='socialMedia'>
+            <a href="enlace_de_la_primera_imagen"><img src="/elements/linkedin.png" alt="Descripción de la primera imagen"/></a>
+            <a href="enlace_de_la_segunda_imagen"><img src="/elements/github.png" alt="Descripción de la segunda imagen"/></a>
+            <a href="enlace_de_la_tercera_imagen"><img src="/elements/behance.png" alt="Descripción de la tercera imagen"/></a>
+          </div>
+        </nav>
+
+      <div className='elements'>
+        <header>
+    <h1>Nicolás Bertinat</h1>
+    <h4>Product Designer (ux/ui) and Front end Developer</h4>
+    </header>
+
+        <div className='routes'>
+        <Routes >
+          <Route path="/" element={<Presentation />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        </div>
+</div>
+      </div>
+
+   
+    </Router>
   );
 }
 
 export default App;
+
+
