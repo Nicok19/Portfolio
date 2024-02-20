@@ -20,7 +20,7 @@ function App() {
               <NavLink exact to="/" activeClassName="active">Presentation</NavLink>
             </li>
             <li>
-              <NavLink to="/resume" activeClassName="active">Currículum</NavLink>
+              <NavLink to="/resume" activeClassName="active">Resume</NavLink>
             </li>
             <li>
               <NavLink to="/portfolio" activeClassName="active">Portafolio</NavLink>

@@ -1,5 +1,5 @@
 .presentationElement h1{
-    color: #A09E9E;
+color: #A09E9E;
 font-size: 40px;
 font-style: normal;
 font-weight: 500;
@@ -36,6 +36,54 @@ text-decoration-line: underline;
   width: 800px;  
   margin-top: 30px;
 }
+
+
+.bothElements{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.bothRows{
+    margin-top: 50px;
+    width: 700px;
+}
+
+#rows{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#row{
+   width: 230px;
+   
+}
+
+#row h3{
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;   
+    margin-bottom: 20px;
+}
+
+#row ul li {
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+    list-style-type: circle; 
+    line-height: 1.2;
+}
+
+.myImage img{
+    width: 380px;
+    margin-right:0px;
+}
+
 
 
 
