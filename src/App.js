@@ -39,7 +39,7 @@ function App() {
 
       <div className='elements'>
         <header>
-    <h1>Nicolás Bertinat</h1>
+    <img src="/elements/nb.png" alt="Logo of Nicolás Bertinat"/>
     <h4>Product Designer (ux/ui) and Front end Developer</h4>
     </header>
 

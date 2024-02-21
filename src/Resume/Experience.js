@@ -6,7 +6,7 @@ const Experience = () => {
             <div className="firstRow">
 
                 <div id="workAndPhoto">
-               <img src="/elements/nb.png" alt="Linkedin of Guillermo Garrone"/>
+               <img src="/elements/nb.png" alt="Logo of freelance Nicolás Bertinat"/>
 
                     <div id="resumeCards">
                         <h3>Product Designer</h3>
@@ -18,7 +18,7 @@ const Experience = () => {
 
 
                 <div id="workAndPhoto">
-                <a href="https://www.franklincovey.com/about/"><img src="/elements/fc.png" alt="Linkedin of Guillermo Garrone"/></a>
+                <a href="https://www.franklincovey.com/about/"><img src="/elements/fc.png" alt="FranklinCovey link"/></a>
                     <div id="resumeCards">
                         <h3>UI Designer</h3>
                         <h4>Franklin Covey</h4>
@@ -28,7 +28,7 @@ const Experience = () => {
             </div>
             <div className="secondRow">
                 <div id="workAndPhoto">
-                <a href="https://www.glendaledesigns.com/"><img src="/elements/gs.png" alt="Linkedin of Guillermo Garrone"/></a>
+                <a href="https://www.glendaledesigns.com/"><img src="/elements/gs.png" alt="Glendale Studio link"/></a>
                     <div id="resumeCards">
                         <h3>UX/UI Designer</h3>
                         <h4>Glendale</h4>
@@ -36,7 +36,7 @@ const Experience = () => {
                     </div>
                 </div>
                 <div id="workAndPhoto">
-                <a href="https://www.bdestudio.com.uy/15-anos"><img src="/elements/bd.png" alt="Linkedin of Guillermo Garrone"/></a>
+                <a href="https://www.bdestudio.com.uy/15-anos"><img src="/elements/bd.png" alt="Bd Studio link"/></a>
                     <div id="resumeCards">
                         <h3>Photographer and Audiovisual Editor</h3>
                         <h4>BD Studio</h4>

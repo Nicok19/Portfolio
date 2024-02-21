@@ -3,6 +3,7 @@
 .bothRowsElements{
 display: flex;
 margin-top: 40px;
+margin-bottom: 60px;
 }
 
 #resumeCards{
@@ -42,20 +43,22 @@ margin-right: 150px;
     padding: 5px;
  }
 
+ #workAndPhoto img:hover{
+    opacity: 0.5;
+ }
 
 
 
 /* downoad button */
 
 .download{
-width: 708px;
+width: 1000px;
 height: 123px;
 flex-shrink: 0;
 background: #77D894;
 display: flex;
 justify-content: center;
 align-items: center;
-margin-top: 70px;
 }
 
 .download button{
@@ -94,6 +97,20 @@ margin-right: 30px;
 }
 
 
+#education{
+    display: flex;
+    align-items: center;  
+}
+
+#education img{
+width: 30px;
+margin-right: 10px;
+}
+
+#education img:hover{
+    opacity: 0.5;
+}
+
 #educationRowOne{
 display: flex;
 margin-bottom: 30px;
@@ -102,7 +119,13 @@ margin-bottom: 30px;
 
 #educationRowTwoo{
     display: flex;
+    margin-bottom: 30px;
     }
+
+#educationRowThree{
+    display: flex;
+    margin-bottom: 25px;
+}
 
 #educationCards{
    padding: 10px;

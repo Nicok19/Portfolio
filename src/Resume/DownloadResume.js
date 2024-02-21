@@ -3,7 +3,7 @@ import React from 'react';
 const DownloadResume = () => {
     
   const handleDownload = () => {
-    window.open('/ruta/al/archivo.pdf', '_blank').focus();
+    window.open('/elements/resume.pdf', '_blank').focus();
   };
 
   return (
