@@ -1,13 +1,16 @@
 import React from "react";
+import SubMenu from "./SubMenu"; 
+import DownloadResume from "./DownloadResume";
+import './ResumeStyles.css';
 
-const Resume = () =>{
-
-
-    return(
+const Resume = () => {
+    return (
         <div>
             <h1>Resume</h1>
+            <SubMenu />
+            <DownloadResume/>
         </div>
-    )
+    );
 }
 
-export default Resume
+export default Resume;
