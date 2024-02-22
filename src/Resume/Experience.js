@@ -26,6 +26,8 @@ const Experience = () => {
                     </div>
                 </div>
             </div>
+
+            
             <div className="secondRow">
                 <div id="workAndPhoto">
                 <a href="https://www.glendaledesigns.com/"><img src="/elements/gs.png" alt="Glendale Studio link"/></a>

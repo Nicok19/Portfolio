@@ -34,12 +34,25 @@
 .contactnb{
     position: fixed;
     bottom: 0;
-    left: 450px;
+    left: 500px;
+    animation: elementRow 2s ease-in; 
 }
+
+    @keyframes elementRow {
+      from {
+        opacity: 0; 
+      }
+      to {
+        opacity: 1; 
+      }
+    }
+
+
+
 
 
 .contactnb img{
-    width: 500px;
+    width: 600px;
     margin-right: 100px;
 }
 
