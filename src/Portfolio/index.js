@@ -1,11 +1,16 @@
 import React from "react";
+import SubMenu from "./SubMenu";
+import './PortfolioStyles.css';
+
+
 
 const Portfolio = () =>{
 
 
     return(
-        <div>
+        <div className ="portfolioElements">
             <h1>Portfolio</h1>
+            <SubMenu/>
         </div>
     )
 }

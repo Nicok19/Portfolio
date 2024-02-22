@@ -1,0 +1,237 @@
+/* Experience */
+
+.resumeElements h1{
+    color: #A09E9E;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+
+.bothRowsElements{
+display: flex;
+margin-top: 50px;
+margin-bottom: 60px;
+}
+
+#resumeCards{
+padding-bottom: 50px;
+margin-right: 150px;
+}
+
+#resumeCards h3{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;  
+    margin-bottom: 5px; 
+    
+}
+
+#resumeCards h4{
+    color: #000;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;  
+    margin-bottom: 5px;   
+}
+
+
+#workAndPhoto{
+   display: flex; 
+}
+
+#workAndPhoto img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 20px;
+    padding: 5px;
+ }
+
+ #workAndPhoto img:hover{
+    opacity: 0.5;
+ }
+
+
+
+/* downoad button */
+
+.download{
+width: 1000px;
+height: 123px;
+flex-shrink: 0;
+background: #77D894;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.download button{
+width: 222px;
+height: 41px;
+border-radius: 33px;
+background: #FFF;
+color: #77D894;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border: none;
+}
+
+.download button:hover{
+  background-color: #77D894;
+  color: white;
+  border: 1px solid white;
+    }
+
+
+.download h3{
+color: #FFF;
+text-align: center;
+font-size: 20px;
+font-weight: 400;
+margin-right: 30px;
+}
+
+/* Education */
+
+.bothRowsEducationElements{
+    margin-top: 40px;
+}
+
+
+#education{
+    display: flex;
+    align-items: center;  
+}
+
+#education img{
+width: 30px;
+margin-right: 10px;
+}
+
+#education img:hover{
+    opacity: 0.5;
+}
+
+#educationRowOne{
+display: flex;
+margin-bottom: 30px;
+
+}
+
+#educationRowTwoo{
+    display: flex;
+    margin-bottom: 30px;
+    }
+
+#educationRowThree{
+    display: flex;
+    margin-bottom: 25px;
+}
+
+#educationCards{
+   padding: 10px;
+   margin-right: 30px;
+   width: 180px;
+}
+
+#educationCards h3{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;  
+    margin-bottom: 5px; 
+
+}
+
+#educationCards h4{
+    color: #000;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;  
+    margin-bottom: 5px;   
+}
+
+#educationCards p{
+    font-size: 14px;
+}
+
+/* Reference */
+
+#professionalReference{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    width: 500px;
+    }
+
+
+ #professionalReference img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+        }
+
+.professionalRow h2{
+    color: #A09E9E;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 30px; 
+    margin-right: 50px;
+}
+
+
+.academicRow h2{
+    color: #A09E9E;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 30px; 
+    margin-right: 50px;
+}
+
+
+
+
+
+
+#referenceCards{
+    width: 300px;
+}
+
+#referenceCards h3{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;  
+    margin-bottom: 5px;    
+}
+
+#referenceCards h4{
+    color: #000;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;  
+    margin-bottom: 5px;   
+}
+
+#referenceCards img{
+  width: 30px; 
+  height: 30px; 
+}
+
+
+
+
