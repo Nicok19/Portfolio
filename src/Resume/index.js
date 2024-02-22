@@ -5,7 +5,7 @@ import './ResumeStyles.css';
 
 const Resume = () => {
     return (
-        <div>
+        <div className="resumeElements">
             <h1>Resume</h1>
             <SubMenu />
             <DownloadResume/>

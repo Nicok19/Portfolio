@@ -5,13 +5,14 @@ const VideoComponent = () => {
 
   return (
     <div className='videoElement'>
-      <video ref={videoRef} controls>
+      <video ref={videoRef} controls poster="/elements/graph.png">
         <source src="/elements/Resume-Video.mp4" type="video/mp4" />
-        Tu navegador no soporta la etiqueta de vídeo.
+        Your browser does not support the video tag.
       </video>
     </div>
   );
 };
 
 export default VideoComponent;
+
 

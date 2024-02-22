@@ -1,0 +1,31 @@
+.portfolioElements h1{
+        color: #A09E9E;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;   
+}
+
+.behancePortfolio {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .behancePortfolio a {
+        display: inline-block;
+    }
+    
+    .behancePortfolio img {
+        width: 280px;
+        margin-right: 20px;
+        margin-top: 20px;
+     
+    }
+    
+    .behancePortfolio a:hover img {
+      border-radius: 30px;
+      border: solid 2px #77D894;
+      opacity: 0.5;
+    }
+    

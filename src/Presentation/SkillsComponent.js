@@ -69,7 +69,7 @@ const SkillsComponent = () =>{
         </div>
 
         <div className="myImage">
-        <img src="/elements/NicolasBertinat.png" alt="Ejemplo" /> 
+        <img src="/elements/NicolasBertinat.png" alt="Photo of Nicolás Bertinat" /> 
 
 
 

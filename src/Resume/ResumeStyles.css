@@ -1,8 +1,16 @@
 /* Experience */
 
+.resumeElements h1{
+    color: #A09E9E;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+
 .bothRowsElements{
 display: flex;
-margin-top: 40px;
+margin-top: 50px;
 margin-bottom: 60px;
 }
 
