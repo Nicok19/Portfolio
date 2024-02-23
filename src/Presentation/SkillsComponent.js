@@ -70,10 +70,6 @@ const SkillsComponent = () =>{
 
         <div className="myImage">
         <img src="/elements/NicolasBertinat.png" alt="Photo of Nicolás Bertinat" /> 
-
-
-
-
         </div>
 
 

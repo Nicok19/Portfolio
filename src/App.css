@@ -6,7 +6,6 @@
   justify-content: space-between;
 }
 
-
   
   .navBar {
     background-color: hsl(138, 55%, 66%);
@@ -100,12 +99,6 @@ animation: headerh4 1s ease-in;
   }
 }
 
-
-
-
-
-
-
 .routes{
   margin-top: 50px;
   padding-left: 60px;
@@ -126,3 +119,90 @@ animation: headerh4 1s ease-in;
    opacity: 0.5;
   }
   
+.menuToggle {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 5px 0;
+  transition: 0.4s;
+}
+
+
+/* Responsive area */
+@media screen and (max-width: 1100px) {
+
+  .menuToggle {
+    display: block;
+  }
+
+  header h4{
+    display: none;
+  }
+
+.container > nav{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+  .navBar {
+    width: 900px;
+    height: 100px;
+  }
+  
+  .navBar ul {
+    display: none;
+  }
+
+  .navBar ul.active {
+    display: block;
+  }
+
+  
+  .navBar.open {
+    width: 100%;
+  }
+}
+  
+
+@media screen and (max-width: 480px) {
+
+  .menuToggle {
+    display: block;
+  }
+
+  header{
+    width: 50px;
+    border-bottom: 0px solid #77D894;
+  }
+  header h4{
+    display: none;
+  }
+
+.container > nav{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+  .navBar {
+    width: 200px;
+    height: 100px;
+  }
+  
+  .navBar ul {
+    display: none;
+  }
+
+  .navBar ul.active {
+    display: block;
+  }
+
+  
+  .navBar.open {
+    width: 100%;
+  }
+}
