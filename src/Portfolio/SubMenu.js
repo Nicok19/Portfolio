@@ -13,7 +13,7 @@ const SubMenu = () => {
         <div className="cardCarousel">
             <div className='buttonCarrusel'>
                 <button className={`buttonStyle ${activeComponent === 'Behance' ? "activeButton" : ""}`} onClick={() => handleToggleComponent('Behance')}>Behance</button>
-                <button className={`buttonStyle ${activeComponent === 'Github' ? "activeButton" : ""}`} onClick={() => handleToggleComponent('Github')}>Github</button>
+                <button className={`buttonStyle ${activeComponent === 'Github' ? "activeButton" : ""}`} onClick={() => handleToggleComponent('Github')}>Github Pages</button>
             </div>
             <div className="card-container">
                 {activeComponent === 'Behance' && <Behance />}

@@ -269,5 +269,131 @@ margin-bottom: 30px;
 }
 
 
+  /* Responsive area experience*/
+
+@media screen and (max-width: 768px) {
+
+
+    .buttonCarrusel{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .bothRowsElements{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 60px;
+        }
+
+
+         /* Responsive area education*/
+    #educationRowOne{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        }
+    
+     #educationRowTwoo{
+         display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        margin-bottom: 0px;
+            }
+
+            #educationRowThree{
+                display: flex;
+               flex-direction: column;
+               margin-top: 0px;
+               margin-bottom: 0px;
+                   }
+
+       /* Responsive area references*/
+
+       .academicRow h2{
+        margin-top: 50px;
+       }
+
+       #referenceCards h3{
+          font-size: 15px;  
+       }
+
+       #referenceCards h4{
+        font-size: 11px;  
+     }
+
+     #professionalReference img{
+        display: none;
+     }
+
+
+     .download{
+        width: 10px;
+        padding: 0px;
+        margin: 0px;
+        }
+
+        .download h3{
+            display: none;
+              }
+
+              .download button{
+                font-size: 10px;
+                margin: auto;
+                margin-left: 55px;
+                }
+               
+
+    }
+
+    @media screen and (max-width: 1400px) {
+
+        .download{
+            width: 900px;
+            }
+    
+        }
+
+        @media screen and (max-width: 1200px) {
+
+            #professionalReference img{
+                display: none;
+            }
+
+
+            .download{
+                width: 500px;
+                }
+        
+            }
+
+            @media screen and (max-width: 480px) {
+                .container{
+                    width: 480px;
+                    padding: 0px;
+                    margin: 0px;
+                }
+
+                .download{
+                    width: 100%;
+                    margin: auto;
+                    }
+                    .download h3{
+                      font-size: 0px;
+                        }
+
+                        .download button{
+                            font-size: 10px;
+                            margin: auto;
+                            }
+                }
+    
+
+        
+
+    
+
+
 
 

@@ -1,3 +1,8 @@
+
+.forCell{
+  display: none;
+}
+
 .presentationElement h1{
 color: #A09E9E;
 font-size: 40px;
@@ -106,6 +111,113 @@ text-decoration-line: underline;
       opacity: 1;
     }
   }
+
+  /* Responsive area video*/
+
+
+  @media screen and (max-width: 1200px) {
+
+    .videoElement video{
+      width: 700px;
+    }
+  }
+@media screen and (max-width: 900px) {
+
+.videoElement video{
+  width: 600px;
+}
+}
+
+@media screen and (max-width: 750px) {
+
+  .videoElement video{
+    width: 500px;
+  }
+  }
+
+  @media screen and (max-width: 650px) {
+
+    .videoElement video{
+      width: 400px;
+    }
+    }
+
+
+
+@media screen and (max-width: 480px) {
+
+.forCell{
+  display: block;
+  width: 350px;
+}
+
+
+
+.forCell h3{
+  color: #A09E9E;;
+  font-size: 35px;
+  font-weight: 500; 
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.forCell p{
+font-size: 20px ;
+line-height: 1.5;
+
+}
+
+
+
+  .videoElement video{
+    width: 350px;
+  }
+  }
+
+    /* Responsive area skills*/
+  
+    @media screen and (max-width: 1400px) {
+
+    .myImage img{
+      display: none;
+    }
+
+    }
+
+
+    @media screen and (max-width: 768px) {
+
+      #rows{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+      }
+
+      #row{
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+
+      #row h3{
+        margin-top: 20px;
+      }
+
+      .bothElements{
+        margin-top: 0px;
+      }
+
+      }
+
+
+
+
+  
+
+
+  
   
 
 

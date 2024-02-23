@@ -15,7 +15,7 @@ const contact = () =>{
 
             <div id="contactElement">
             <img src="/elements/linkedinGreen.png" alt="Logo of Linkedin" /> 
-            <a href="https://www.linkedin.com/in/nicol%C3%A1s-bertinat-de-los-santos/">Visit my linkedIn profile</a>
+            <a href="https://www.linkedin.com/in/nicol%C3%A1s-bertinat-de-los-santos/">Visit my LinkedIn profile</a>
             </div>
 
             <div id="contactElement">
