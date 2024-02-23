@@ -39,3 +39,24 @@
       opacity: 0.5;
     }
     
+    @media screen and (max-width: 1100px) {
+      .behancePortfolio {
+        width: 900px;
+    }
+      
+    }
+
+    @media screen and (max-width: 1000px) {
+      .behancePortfolio {
+        width: 600px;
+    }
+      
+
+    }
+
+    @media screen and (max-width: 760px) {
+      .behancePortfolio {
+        width: 400px;
+    } 
+
+    }
