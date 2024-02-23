@@ -25,7 +25,7 @@ const contact = () =>{
 
             <div id="contactElement">
             <img src="/elements/tel.png" alt="Icon of Telephone" /> 
-            <h4>(+598 92 978 411)</h4>
+            <h4>(+598) 92 978 411</h4>
             </div>
         </div>
 

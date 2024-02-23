@@ -10,7 +10,17 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        animation: elementRow 1s ease-in; 
     }
+
+        @keyframes elementRow {
+          from {
+            opacity: 0; 
+          }
+          to {
+            opacity: 1; 
+          }
+        }
     
     .behancePortfolio a {
         display: inline-block;

@@ -14,6 +14,26 @@ margin-top: 50px;
 margin-bottom: 60px;
 }
 
+
+.firstRow{
+    animation: elementRow 1s ease-in; 
+}
+
+    @keyframes elementRow {
+      from {
+        opacity: 0; 
+      }
+      to {
+        opacity: 1; 
+      }
+    }
+
+
+    .secondRow{
+        animation: elementRow 2s ease-in; 
+    }
+
+
 #resumeCards{
 padding-bottom: 50px;
 margin-right: 150px;
@@ -104,6 +124,18 @@ margin-right: 30px;
     margin-top: 40px;
 }
 
+#educationRowOne{
+    animation: elementRow 2s ease-in;
+}
+
+#educationRowTwoo{
+    animation: elementRow 3s ease-in;
+}
+
+#educationRowThree{
+    animation: elementRow 3.5s ease-in;
+}
+
 
 #education{
     display: flex;
@@ -166,6 +198,15 @@ margin-bottom: 30px;
 
 /* Reference */
 
+
+.professionalRow{
+    animation: elementRow 1s ease-in;
+}
+
+.academicRow{
+    animation: elementRow 2s ease-in;
+}
+
 #professionalReference{
     display: flex;
     align-items: center;
@@ -199,11 +240,6 @@ margin-bottom: 30px;
     margin-bottom: 30px; 
     margin-right: 50px;
 }
-
-
-
-
-
 
 #referenceCards{
     width: 300px;

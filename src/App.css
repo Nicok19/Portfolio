@@ -1,15 +1,27 @@
 
 
 .container {
-    display: flex;
-    flex-direction: row-reverse; 
-    justify-content: space-between;
-  }
+  display: flex;
+  flex-direction: row-reverse; 
+  justify-content: space-between;
+}
+
+
   
   .navBar {
     background-color: hsl(138, 55%, 66%);
     width: 20%;
     height: 100vh;
+    animation: expandMenu 1s ease-out; 
+  }
+
+  @keyframes expandMenu {
+    from {
+      width: -0%; 
+    }
+    to {
+      width: 20%; 
+    }
   }
 
 .navBar ul{
@@ -28,7 +40,18 @@ font-size: 35px;
 font-style: normal;
 font-weight: bold;
 line-height: normal;
+animation: apearceMenu 2s ease-in; 
     }
+
+    @keyframes apearceMenu {
+      from {
+        opacity: 0; 
+      }
+      to {
+        opacity: 1; 
+      }
+    }
+  
 
 .navBar ul li a.active {
 color: #007B24; 
@@ -64,7 +87,24 @@ font-size: 20px;
 font-style: normal;
 font-weight: 400;
 margin-bottom: 20px;
+animation: headerh4 1s ease-in; 
 }
+
+
+@keyframes headerh4 {
+  from {
+    opacity: 0; 
+  }
+  to {
+    opacity: 1; 
+  }
+}
+
+
+
+
+
+
 
 .routes{
   margin-top: 50px;

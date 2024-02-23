@@ -33,8 +33,19 @@ text-decoration-line: underline;
 }
 
 .videoElement video{
-  width: 800px;  
+  width: 850px;  
   margin-top: 30px;
+  animation: video 1s ease-in; 
+  border: none;
+}
+
+@keyframes video {
+  from {
+    opacity: 0; 
+  }
+  to {
+    opacity: 1; 
+  }
 }
 
 
@@ -79,10 +90,23 @@ text-decoration-line: underline;
     line-height: 1.2;
 }
 
-.myImage img{
+.myImage img {
     width: 380px;
-    margin-right:0px;
-}
+    position: fixed;
+    bottom: 0;
+    left: 750px;
+    animation: nbertinat 1s ease-in; 
+  }
+  
+  @keyframes nbertinat {
+    from {
+      opacity: 0; 
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
 
 
 
