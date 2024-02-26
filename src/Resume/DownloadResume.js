@@ -3,7 +3,7 @@ import React from 'react';
 const DownloadResume = () => {
     
   const handleDownload = () => {
-    window.open('/elements/resume.pdf', '_blank').focus();
+    window.open('https://drive.google.com/file/d/1WWmTWcGzLnJzwRNvwDly2iM9rh7eskjz/view?usp=sharing', '_blank').focus();
   };
 
   return (
