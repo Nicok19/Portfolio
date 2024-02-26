@@ -212,7 +212,12 @@ animation: headerh4 1s ease-in;
 
   .menuToggle {
     display: block;
+   
   }
+
+  .navBar ul{
+    margin-top: 0px; 
+ }
 
   header{
     width: 50px;
