@@ -11,6 +11,7 @@
   display: flex;
   flex-direction: row-reverse; 
   justify-content: space-between;
+  width: 100vw;
 }
 
   
@@ -181,6 +182,7 @@ animation: headerh4 1s ease-in;
 
   header h4{
     display: none;
+    width: 80%;
   }
 
 .container > nav{
@@ -189,7 +191,7 @@ animation: headerh4 1s ease-in;
   align-items: center;
 }
   .navBar {
-    width: 900px;
+    width: 20%;
     height: 100px;
   }
   
@@ -210,9 +212,12 @@ animation: headerh4 1s ease-in;
 
 @media screen and (max-width: 480px) {
 
+  .container {
+    width: 100vw;
+  }
   .menuToggle {
     display: block;
-   
+    width: 20%;
   }
 
   .navBar ul{
@@ -220,8 +225,8 @@ animation: headerh4 1s ease-in;
  }
 
   header{
-    width: 50px;
     border-bottom: 0px solid #77D894;
+    width: 80vw;
   }
   header h4{
     display: none;
@@ -233,7 +238,7 @@ animation: headerh4 1s ease-in;
   align-items: center;
 }
   .navBar {
-    width: 200px;
+    width: 20vw;
     height: 100px;
   }
   
@@ -247,6 +252,6 @@ animation: headerh4 1s ease-in;
 
   
   .navBar.open {
-    width: 100%;
+  width: 100%;
   }
 }

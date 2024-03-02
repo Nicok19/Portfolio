@@ -38,7 +38,7 @@ text-decoration-line: underline;
 }
 
 .videoElement video{
-  width: 850px;  
+  width: 80%;  
   margin-top: 30px;
   animation: video 1s ease-in; 
   border: none;
@@ -112,45 +112,15 @@ text-decoration-line: underline;
     }
   }
 
-  /* Responsive area video*/
 
 
-  @media screen and (max-width: 1200px) {
-
-    .videoElement video{
-      width: 700px;
-    }
-  }
-@media screen and (max-width: 900px) {
-
-.videoElement video{
-  width: 600px;
-}
-}
-
-@media screen and (max-width: 750px) {
-
-  .videoElement video{
-    width: 500px;
-  }
-  }
-
-  @media screen and (max-width: 650px) {
-
-    .videoElement video{
-      width: 400px;
-    }
-    }
-
-
-
+  
 @media screen and (max-width: 480px) {
 
 .forCell{
   display: block;
-  width: 350px;
+  width: 80vw;
 }
-
 
 
 .forCell h3{
@@ -159,22 +129,20 @@ text-decoration-line: underline;
   font-weight: 500; 
   margin-bottom: 20px;
   margin-top: 50px;
+  width: 200px;
 }
 
 .forCell p{
-font-size: 20px ;
+width: 90%;
 line-height: 1.5;
 
 }
 
-
-
   .videoElement video{
-    width: 350px;
+    width: 100%;
   }
   }
 
-    /* Responsive area skills*/
   
     @media screen and (max-width: 1400px) {
 
@@ -207,6 +175,10 @@ line-height: 1.5;
 
       .bothElements{
         margin-top: 0px;
+      }
+
+      .bothRows{
+        margin-bottom: 50px;
       }
 
       }
