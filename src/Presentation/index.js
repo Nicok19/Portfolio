@@ -9,7 +9,6 @@ const Presentation = () =>{
         <div className="presentationElement">
             <h1>Presentation</h1>
             <SubMenu/>
-
         </div>
     )
 }
