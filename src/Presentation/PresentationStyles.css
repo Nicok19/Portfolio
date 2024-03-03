@@ -186,14 +186,14 @@ line-height: 1.5;
       @media screen and (min-width: 1920px) {
 
         .myImage img {
-          width: 600px;
+          width: 450px;
           position: fixed;
           bottom: 0;
-          left: 900px;
+          left: 1000px;
         }
 
         #row h3{
-          font-size: 30px;
+          font-size: 25px;
         }
 
         #rows{
@@ -206,7 +206,7 @@ line-height: 1.5;
         }
 
         #row ul li{
-          font-size: 25px;
+          font-size: 19px;
         }
       
 

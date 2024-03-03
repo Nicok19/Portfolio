@@ -444,27 +444,27 @@ margin-bottom: 30px;
     #workAndPhoto{
         width: 700px;
         height: 200px;
-        margin-bottom: 60px;
+        margin-bottom: 40px;
     }
 
     #workAndPhoto img{
-        width: 120px;
-        height: 120px; 
+        width: 100px;
+        height: 100px; 
         margin-right:40px ;
     }
 
     #resumeCards h3{
-        font-size: 30px;
-        margin-bottom: 10px;
-    }
-
-    #resumeCards h4{
         font-size: 25px;
         margin-bottom: 10px;
     }
 
-    #resumeCards p{
+    #resumeCards h4{
         font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    #resumeCards p{
+        font-size: 16px;
     }
 
 /* Education*/
@@ -473,16 +473,16 @@ margin-bottom: 30px;
     margin-right: 50px;
 }
 #education img{
- width: 60px;  
+ width: 50px;  
  margin-right: 20px; 
 }
 
 #education h3{
-    font-size: 25px;
+    font-size: 22px;
 }
 
 #education h4{
-    font-size: 20px;}
+    font-size: 18px;}
 
 #education p{
     font-size: 15px;}
@@ -517,9 +517,9 @@ margin-bottom: 30px;
 }
 
 #referenceCards h3{
-font-size: 30px;
+font-size: 25px;
 font-weight: 500;
-margin-bottom: 20px;
+margin-bottom: 10px;
 }
 
 #referenceCards h4{
@@ -528,16 +528,16 @@ margin-bottom: 20px;
 }
 
 #referenceCards > a > img{
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     border-radius: 50px;
     margin-right: 50px;
     margin-top: 20px;
 }
 
 #professionalReference > img{
-    width: 120px;
-    height: 120px;
+    width: 90px;
+    height: 90px;
 }
 
 }
