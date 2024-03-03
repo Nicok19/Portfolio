@@ -75,7 +75,6 @@ text-decoration-line: underline;
 
 #row{
    width: 230px;
-   
 }
 
 #row h3{
@@ -180,6 +179,37 @@ line-height: 1.5;
       .bothRows{
         margin-bottom: 50px;
       }
+
+      }
+
+
+      @media screen and (min-width: 1920px) {
+
+        .myImage img {
+          width: 600px;
+          position: fixed;
+          bottom: 0;
+          left: 900px;
+        }
+
+        #row h3{
+          font-size: 30px;
+        }
+
+        #rows{
+          width: 990px;
+          margin-bottom: 100px;
+        }
+
+        #row{
+          width: 330px;
+        }
+
+        #row ul li{
+          font-size: 25px;
+        }
+      
+
 
       }
 

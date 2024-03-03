@@ -199,15 +199,29 @@ animation: headerh4 1s ease-in;
     display: none;
   }
 
+
   .navBar ul.active {
     display: block;
   }
+  .elements .menu-open{
+    width: 0px;
+  }
 
-  
+  .container .menu-open{
+    width: 100%;
+  }
+
   .navBar.open {
     width: 100%;
   }
 }
+
+
+
+
+
+
+
   
 
 @media screen and (max-width: 480px) {
@@ -217,7 +231,7 @@ animation: headerh4 1s ease-in;
   }
   .menuToggle {
     display: block;
-    width: 20%;
+
   }
 
   .navBar ul{
@@ -252,6 +266,8 @@ animation: headerh4 1s ease-in;
 
   
   .navBar.open {
-  width: 100%;
+    width: 100%;
+   
   }
+  
 }
