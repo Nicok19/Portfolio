@@ -73,14 +73,14 @@
       }
       
       .behancePortfolio a {
-          flex-basis: 100%; /* Cambia la base de flex a 100% para ocupar todo el ancho */
-          max-width: 100%; /* Establece el ancho máximo al 100% */
-          margin-right: 0; /* Elimina el margen derecho */
+          flex-basis: 100%; 
+          max-width: 100%; 
+          margin-right: 0; 
           margin-top: 20px;
       }
   
       .behancePortfolio img {
-          width: 100%; /* Establece el ancho de la imagen al 100% del ancho del contenedor padre */
+          width: 100%; 
       }
   }
   
