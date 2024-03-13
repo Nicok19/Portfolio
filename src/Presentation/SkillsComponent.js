@@ -50,6 +50,7 @@ const SkillsComponent = () =>{
                 <li>CSS</li>
                 <li>JavaScript</li>
                 <li>React</li>
+                <li>GitHub</li>
             </ul>
         </div>
 
