@@ -9,9 +9,9 @@ const Experience = () => {
                <img src="/elements/nb.png" alt="Logo of freelance Nicolás Bertinat"/>
 
                     <div id="resumeCards">
-                        <h3>Product Designer</h3>
-                        <h4>Freelance professional</h4>
-                        <p>September 2022 - Present</p>
+                        <h3>Product Designer and <br/>Front-End Developer</h3>
+                        <h4>Freelance Professional</h4>
+                        <p>March 2023 - Present</p>
                     </div>
                 </div>
 
@@ -19,7 +19,7 @@ const Experience = () => {
                 <div id="workAndPhoto">
                 <a href="https://www.franklincovey.com/about/"><img src="/elements/fc.png" alt="FranklinCovey link"/></a>
                     <div id="resumeCards">
-                        <h3>UI Designer</h3>
+                        <h3>Product Designer</h3>
                         <h4>Franklin Covey</h4>
                         <p>September 2019 - October 2023</p>
                     </div>
