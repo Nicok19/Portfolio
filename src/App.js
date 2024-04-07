@@ -5,6 +5,7 @@ import Presentation from './Presentation';
 import Resume from './Resume';
 import Contact from './Contact';
 import Portfolio from './Portfolio';
+import Skills from './Skills';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -38,7 +39,10 @@ function App() {
           </div>
           <ul className={isMenuOpen ? 'active' : ''}>
             <li>
-              <NavLink exact to="/" activeClassName="active" onClick={() => setIsMenuOpen(false)}>Presentation</NavLink>
+              <NavLink exact to="/" activeClassName="active" onClick={() => setIsMenuOpen(false)}>About Me</NavLink>
+            </li>
+            <li>
+              <NavLink to="/skills" activeClassName="active" onClick={() => setIsMenuOpen(false)}>Skills</NavLink>
             </li>
             <li>
               <NavLink to="/resume" activeClassName="active" onClick={() => setIsMenuOpen(false)}>Resume</NavLink>
@@ -60,15 +64,16 @@ function App() {
             </header>
           )}
 
-          <div className='routes'>
-            <Routes>
-              <Route path="/" element={<Presentation />} />
-              <Route path="/resume" element={<Resume />} />
-              <Route path="/portfolio" element={<Portfolio />} />
-              <Route path="/contact" element={<Contact />} />
-            
-            </Routes>
-          </div>
+                    <div className='routes'>
+                      <Routes>
+                        <Route path="/" element={<Presentation />} />
+                        <Route path="/skills" element={<Skills />} /> 
+                        <Route path="/resume" element={<Resume />} />
+                        <Route path="/portfolio" element={<Portfolio />} />
+                        <Route path="/contact" element={<Contact />} />
+                      
+                      </Routes>
+                    </div>
         </div>
 
       </div>
@@ -77,6 +82,7 @@ function App() {
 }
 
 export default App;
+
 
 
 

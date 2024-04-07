@@ -2,6 +2,12 @@ import React from "react";
 
 const Experience = () => {
     return (
+
+        <div>  
+
+        <h2 className="titleworkElement">
+        I am always open to new opportunities and professional challenges.
+         </h2>
         <div className="bothRowsElements">
             <div className="firstRow">
 
@@ -45,6 +51,8 @@ const Experience = () => {
                     </div>
                 </div>
             </div>
+        </div>
+
         </div>
     );
 };

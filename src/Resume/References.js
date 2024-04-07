@@ -2,6 +2,10 @@ import React from "react";
 
 const References = () => {
     return (
+<div>
+        <h2 className="titleworkElement">
+        If you want to get references from me, I invite you to contact them through LinkedIn:
+         </h2>
         <div className="bothRowsElements">
 
             <div className="professionalRow">
@@ -48,6 +52,7 @@ const References = () => {
                     <img src="/elements/sergio.jpeg" alt="Sergio Álvarez" />
                 </div>
             </div>
+        </div>
         </div>
     );
 };

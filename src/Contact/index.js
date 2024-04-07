@@ -8,7 +8,6 @@ const contact = () =>{
     return(
 
         <div className="bothElementsContact">
-        <h1>Contact</h1>
 
         <div className="contactAndPhoto">
         <div className="contactElementDiv">

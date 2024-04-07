@@ -61,7 +61,7 @@ margin-bottom: 60px;
 
 
 .firstRow{
-    animation: elementRow 1s ease-in; 
+    animation: elementRow 0.5s ease-in; 
 }
 
     @keyframes elementRow {
@@ -120,25 +120,28 @@ margin-right: 150px;
     opacity: 0.5;
  }
 
+ .titleworkElement{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 40px;
+    animation: elementRow 1.5s ease-in;
+  }
+
 
 /* Education */
 
+.descriptionEducation{
+    width: 900px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
 .bothRowsEducationElements{
     margin-top: 40px;
+    animation: elementRow 0.5s ease-in;
 }
-
-#educationRowOne{
-    animation: elementRow 2s ease-in;
-}
-
-#educationRowTwoo{
-    animation: elementRow 3s ease-in;
-}
-
-#educationRowThree{
-    animation: elementRow 3.5s ease-in;
-}
-
 
 #education{
     display: flex;
@@ -146,7 +149,7 @@ margin-right: 150px;
 }
 
 #education img{
-width: 30px;
+width: 50px;
 margin-right: 10px;
 }
 
@@ -154,18 +157,7 @@ margin-right: 10px;
     opacity: 0.5;
 }
 
-#educationRowOne{
-display: flex;
-margin-bottom: 30px;
-
-}
-
-#educationRowTwoo{
-    display: flex;
-    margin-bottom: 30px;
-    }
-
-#educationRowThree{
+#educationRow{
     display: flex;
     margin-bottom: 25px;
 }
@@ -198,6 +190,75 @@ margin-bottom: 30px;
 #educationCards p{
     font-size: 14px;
 }
+
+.generalBootcamp{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    width: 70vw;
+    border: 1px solid rgb(109, 107, 107);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+  #botcamp{
+    margin-right: 10px;
+    display: inline-block;
+  }
+  
+  #botcamp h3 { 
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  #botcamp h4 {
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 5px;
+  }
+  
+  #botcamp p {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 5px;
+  }
+
+  .titleElement{
+width: 900px;
+margin-bottom: 30px;
+animation: elementRow 1.5s ease-in;
+}
+
+
+.titleElement p{
+    color: #626262;
+    }
+
+  .titleElement h3{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 23px;
+      }
+
+      .titleElement h2{
+        color: black;
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 23px;
+        width: 70vw;
+          }
+
+          .titleBootcamp{
+            color: black;
+            font-size: 15px;
+            font-weight: 500;
+            margin-top: 23px;
+
+          }
+
 
 /* Reference */
 
@@ -281,7 +342,10 @@ margin-bottom: 30px;
 
 @media screen and (max-width: 768px) {
 
-
+.generalBootcamp{
+display: flex;
+flex-wrap: column;
+}
     .buttonCarrusel{
         display: flex;
         flex-direction: column;
@@ -294,22 +358,7 @@ margin-bottom: 30px;
         margin-bottom: 60px;
         }
 
-
-    #educationRowOne{
-        display: flex;
-        flex-direction: column;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        }
-    
-     #educationRowTwoo{
-         display: flex;
-        flex-direction: column;
-        margin-top: 0px;
-        margin-bottom: 0px;
-            }
-
-            #educationRowThree{
+        #educationRow{
                 display: flex;
                flex-direction: column;
                margin-top: 0px;
@@ -432,7 +481,26 @@ margin-bottom: 30px;
                     position: static;
                 
                 }
+
+                .generalBootcamp{
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                #botcamp p{
+                    margin-bottom: 30px;
+                }
+                .titleElement h2{
+                    line-height: 1.3;
+                }
                 
+                .titleElement {
+                    width: 300px;
+                }
+
+                .titleworkElement{
+                    line-height: 1.3;
+                }
                 }
     
 @media screen and (min-width: 1920px) {
@@ -467,34 +535,65 @@ margin-bottom: 30px;
         font-size: 16px;
     }
 
+    .titleworkElement{
+        font-size: 25px;
+    margin-bottom: 25px; 
+    }
+
 /* Education*/
 
 #education{
     margin-right: 50px;
 }
 #education img{
- width: 50px;  
+ width: 90px;  
  margin-right: 20px; 
 }
 
 #education h3{
-    font-size: 22px;
+    font-size: 30px;
 }
 
 #education h4{
-    font-size: 18px;}
+    font-size: 25px;}
 
 #education p{
-    font-size: 15px;}
+    font-size: 20px;}
 
-#educationRowOne{
-    margin-bottom: 60px;
-    margin-top: 60px;
+#educationCards{
+    width: 350px;
 }
 
-#educationRowTwoo{
-    margin-bottom: 60px;
-}
+  
+#botcamp h3 { 
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  #botcamp h4 {
+    font-size: 16px;
+  }
+  
+  #botcamp p {
+    font-size: 17px;
+  }
+
+  .titleElement h2{
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+
+  .titleElement h3{
+    font-size: 20px;
+    margin-bottom: 25px;
+    margin-top: 50px;
+  }
+
+  .titleBootcamp{
+    font-size: 20px;
+    margin-bottom: 25px;
+    margin-top: 50px;
+  }
 
 /* reference*/
 
