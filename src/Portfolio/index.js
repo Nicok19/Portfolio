@@ -9,7 +9,6 @@ const Portfolio = () =>{
 
     return(
         <div className ="portfolioElements">
-            <h1>Portfolio</h1>
             <SubMenu/>
         </div>
     )

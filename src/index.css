@@ -9,5 +9,9 @@ list-style: none;
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #F5F5F5;
+    background-image: url('https://imgur.com/B6jrfUC.png');
+
+    background-size: cover;
 }
+
 
