@@ -42,9 +42,8 @@ const UxComponent = () => {
                         <h3>UX Platforms</h3>
                         <ul>
                             <li>Optimal Workshop</li>
-                            <li>Hotjar</li><li>Optimizely</li>
+                            <li>Hotjar</li>
                             <li>Miro</li>
-                            <li>Google Analytics</li>
                             <li>Google Forms</li>
                             </ul>
                             

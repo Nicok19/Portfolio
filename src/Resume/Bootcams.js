@@ -40,12 +40,7 @@ function Bootcams() {
             <h4>Coderhouse</h4>
             <p>2022</p>
           </div>
-          <div id="botcamp">
-            <h3>Web Analytics</h3>
-            <h4>Senpai Academy</h4>
-            <p>2020</p>
-          </div>
-        </div>
+           </div>
         </div>
   );
 }

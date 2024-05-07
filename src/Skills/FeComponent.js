@@ -48,8 +48,6 @@ const FrontEndComponent = () =>{
             <p>TypeScript</p>
           </div>
 
-        
-
         </div>
       </div>
         
