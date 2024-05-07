@@ -41,6 +41,7 @@ const UxComponent = () => {
                     <div id="row">
                         <h3>UX Platforms</h3>
                         <ul>
+                            <li>Google Analytics</li>
                             <li>Optimal Workshop</li>
                             <li>Hotjar</li>
                             <li>Miro</li>
