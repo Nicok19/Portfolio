@@ -60,7 +60,7 @@ function App() {
           {isMenuOpen ? null : (
             <header>
               <img src="/elements/nb.png" alt="Logo of Nicolás Bertinat"/>
-              <h4>Product Designer (ux/ui) and Front end Developer</h4>
+              <h4>UX/UI Designer and Front End Developer</h4>
             </header>
           )}
 
