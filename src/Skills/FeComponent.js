@@ -8,7 +8,7 @@ const FrontEndComponent = () =>{
         <div id="titleSkills">
           <h2>Now, all this into code</h2>
           <p>
-          I have a wide range of languages and frameworks that allow me to create various websites like this one and maintain smooth communication with other developers.
+          I have knowledge of various languages and technologies in front-end development. In each of my projects, I place great importance on <span className="titleDiferential">Seo, Accessibility, Component Testing, and Documentation.</span> This way, I can create scalable products.
           </p>
         </div>
   

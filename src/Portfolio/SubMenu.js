@@ -12,8 +12,8 @@ const SubMenu = () => {
     return (
         <div className="cardCarousel">
             <div className='buttonCarrusel'>
-                <button className={`buttonStyle ${activeComponent === 'Behance' ? "activeButton" : ""}`} onClick={() => handleToggleComponent('Behance')}>Behance</button>
-                <button className={`buttonStyle ${activeComponent === 'Github' ? "activeButton" : ""}`} onClick={() => handleToggleComponent('Github')}>Websites</button>
+                <button className={`buttonStyle ${activeComponent === 'Behance' ? "activeButton" : ""}`} onClick={() => handleToggleComponent('Behance')}>UX/UI</button>
+                <button className={`buttonStyle ${activeComponent === 'Github' ? "activeButton" : ""}`} onClick={() => handleToggleComponent('Github')}>Front End</button>
             </div>
             <div className="card-container">
                 {activeComponent === 'Behance' && <Behance />}

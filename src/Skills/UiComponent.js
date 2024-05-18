@@ -6,7 +6,7 @@ const UiComponent = () => {
       <div id="titleSkills">
         <h2>UI without Paint</h2>
         <p>
-        I have been designing for over 10 years, with a focus on generating designs for websites and mobile applications in the last 7 years. I possess extensive knowledge in design and animation, which allows me to create beautiful mockups.
+        I have worked on various projects creating graphical interfaces for both applications and websites. I have extensive experience with numerous design programs and a deep understanding of <span className="titleDiferential">Design Systems and Methodologies</span>.
         </p>
       </div>
 

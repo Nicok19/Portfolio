@@ -1,8 +1,8 @@
 /* downoad button */
 
 .download {
-    width: 40%;
-    height: 123px;
+    width: 35%;
+    height: 90px;
     background: #77D894;
     display: flex;
     justify-content: center;
@@ -15,13 +15,13 @@
 }
 
 .download button {
-    width: 222px;
-    height: 41px;
+    width: 180px;
+    height: 30px;
     border-radius: 33px;
     background: #FFF;
     color: #77D894;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -37,11 +37,10 @@
 .download h3 {
     color: #FFF;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
     margin-right: 30px;
 }
-
 
 /* Experience */
 
@@ -59,7 +58,6 @@
     margin-bottom: 60px;
 }
 
-
 .firstRow {
     animation: elementRow 0.5s ease-in;
 }
@@ -68,34 +66,30 @@
     from {
         opacity: 0;
     }
-
     to {
         opacity: 1;
     }
 }
 
-
 .secondRow {
     animation: elementRow 2s ease-in;
 }
 
-
-#resumeCards {
+.resumeCards {
     padding-bottom: 50px;
     margin-right: 150px;
 }
 
-#resumeCards h3 {
+.resumeCards h3 {
     color: #000;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     margin-bottom: 5px;
-
 }
 
-#resumeCards h4 {
+.resumeCards h4 {
     color: #000;
     font-size: 17px;
     font-style: normal;
@@ -104,12 +98,11 @@
     margin-bottom: 5px;
 }
 
-
-#workAndPhoto {
+.workAndPhoto {
     display: flex;
 }
 
-#workAndPhoto img {
+.workAndPhoto img {
     width: 50px;
     height: 50px;
     border-radius: 5px;
@@ -117,7 +110,7 @@
     padding: 5px;
 }
 
-#workAndPhoto img:hover {
+.workAndPhoto img:hover {
     opacity: 0.5;
 }
 
@@ -129,7 +122,6 @@
     animation: elementRow 1.5s ease-in;
 }
 
-
 /* Education */
 
 .descriptionEducation {
@@ -138,48 +130,46 @@
     margin-top: 30px;
 }
 
-
 .bothRowsEducationElements {
     margin-top: 40px;
     animation: elementRow 0.5s ease-in;
 }
 
-#education {
+.education {
     display: flex;
     align-items: center;
 }
 
-#education img {
+.education img {
     width: 50px;
     margin-right: 10px;
 }
 
-#education img:hover {
+.education img:hover {
     opacity: 0.5;
 }
 
-#educationRow {
+.educationRow {
     display: flex;
     margin-bottom: 25px;
 }
 
-#educationCards {
+.educationCards {
     padding: 10px;
     margin-right: 30px;
     width: 180px;
 }
 
-#educationCards h3 {
+.educationCards h3 {
     color: #000;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     margin-bottom: 5px;
-
 }
 
-#educationCards h4 {
+.educationCards h4 {
     color: #000;
     font-size: 17px;
     font-style: normal;
@@ -188,7 +178,7 @@
     margin-bottom: 5px;
 }
 
-#educationCards p {
+.educationCards p {
     font-size: 14px;
 }
 
@@ -204,23 +194,23 @@
     border-radius: 20px;
 }
 
-#botcamp {
+.bootcamp {
     margin-right: 10px;
     display: inline-block;
 }
 
-#botcamp h3 {
+.bootcamp h3 {
     font-size: 14px;
     font-weight: 600;
 }
 
-#botcamp h4 {
+.bootcamp h4 {
     font-size: 13px;
     font-weight: 500;
     margin-top: 5px;
 }
 
-#botcamp p {
+.bootcamp p {
     font-size: 12px;
     font-weight: 500;
     margin-top: 5px;
@@ -231,7 +221,6 @@
     margin-bottom: 30px;
     animation: elementRow 1.5s ease-in;
 }
-
 
 .titleElement p {
     color: #626262;
@@ -257,9 +246,7 @@
     font-size: 15px;
     font-weight: 500;
     margin-top: 23px;
-
 }
-
 
 /* Reference */
 
@@ -271,7 +258,7 @@
     animation: elementRow 2s ease-in;
 }
 
-#professionalReference {
+.professionalReference {
     display: flex;
     align-items: center;
     margin-top: 20px;
@@ -279,13 +266,15 @@
     width: 500px;
 }
 
+.personalReferenceMargin{
+    margin-top: 40px;
+}
 
-#professionalReference img {
+.referenceImage {
     width: 80px;
     height: 80px;
     border-radius: 50px;
 }
-
 
 .professionalRow h2 {
     color: #A09E9E;
@@ -296,7 +285,6 @@
     margin-right: 50px;
 }
 
-
 .academicRow h2 {
     color: #A09E9E;
     font-size: 20px;
@@ -306,11 +294,11 @@
     margin-right: 50px;
 }
 
-#referenceCards {
+.referenceCards {
     width: 300px;
 }
 
-#referenceCards h3 {
+.referenceCards h3 {
     color: #000;
     font-size: 20px;
     font-style: normal;
@@ -319,7 +307,7 @@
     margin-bottom: 5px;
 }
 
-#referenceCards h4 {
+.referenceCards h4 {
     color: #000;
     font-size: 17px;
     font-style: normal;
@@ -328,21 +316,25 @@
     margin-bottom: 5px;
 }
 
-#referenceCards img {
-    width: 30px;
-    height: 30px;
+.referenceContactButton{
+padding: 5px;
+border-radius: 5px;
+background-color: none;
+margin-top: 10px;
 }
 
-#referenceCards img:hover {
+.referenceContactButton:hover{
+background-color: #77D894;
+    
+    }
+
+.referenceCards img:hover {
     opacity: 0.5;
 }
 
-
-/* Responsive area*/
-
+/* Responsive area */
 
 @media screen and (max-width: 768px) {
-
     .generalBootcamp {
         display: flex;
         flex-wrap: column;
@@ -361,7 +353,7 @@
         margin-bottom: 60px;
     }
 
-    #educationRow {
+    .educationRow {
         display: flex;
         flex-direction: column;
         margin-top: 0px;
@@ -372,18 +364,17 @@
         margin-top: 50px;
     }
 
-    #referenceCards h3 {
+    .referenceCards h3 {
         font-size: 15px;
     }
 
-    #referenceCards h4 {
+    .referenceCards h4 {
         font-size: 11px;
     }
 
-    #professionalReference img {
+    .referenceImage {
         display: none;
     }
-
 
     .download {
         width: 10px;
@@ -403,16 +394,13 @@
 }
 
 @media screen and (max-width: 1200px) {
-
-    #professionalReference img {
+    .referenceImage {
         display: none;
     }
-
 
     .download {
         display: none;
     }
-
 }
 
 @media screen and (max-width: 480px) {
@@ -422,39 +410,33 @@
         margin: 0px;
     }
 
-    #professionalReference {
+    .professionalReference {
         width: 100%;
     }
 
-    #professionalReference img {
+    .referenceImage {
         display: block;
         width: 50px;
         height: 50px;
     }
-
-    #referenceCards img {
-        width: 30px;
-        height: 30px;
-    }
-
 
     .bothRowsElements {
         margin-bottom: 0px;
         width: 100%;
     }
 
-    #workAndPhoto h3 {
+    .workAndPhoto h3 {
         font-size: 15px;
         font-weight: 700;
         width: 167px;
     }
 
-    #workAndPhoto h4 {
+    .workAndPhoto h4 {
         font-size: 13px;
         font-weight: 500;
     }
 
-    #workAndPhoto p {
+    .workAndPhoto p {
         font-size: 12px;
         font-weight: 200;
     }
@@ -470,19 +452,16 @@
         justify-content: center;
         align-items: center;
         margin-left: 170px;
-
     }
 
-
     .download button {
-        font-size: 15px;
+        font-size: 12px;
         background-color: #77D894;
         color: white;
         border: none;
         border-radius: 5px;
         padding: 0px 50px;
         position: static;
-
     }
 
     .generalBootcamp {
@@ -490,7 +469,7 @@
         flex-direction: column;
     }
 
-    #botcamp p {
+    .bootcamp p {
         margin-bottom: 30px;
     }
 
@@ -507,36 +486,47 @@
     }
 }
 
-@media screen and (min-width: 1920px) {
 
-    /* Experience*/
+    @media screen and (max-width: 720px) {
+        .generalBootcamp {
+            display: flex;
+            flex-direction: column;
+        }
+}
+
+
+
+
+
+@media screen and (min-width: 1920px) {
+    /* Experience */
     .bothRowsElements {
         margin-top: 100px;
     }
 
-    #workAndPhoto {
+    .workAndPhoto {
         width: 700px;
         height: 200px;
         margin-bottom: 40px;
     }
 
-    #workAndPhoto img {
+    .workAndPhoto img {
         width: 100px;
         height: 100px;
         margin-right: 40px;
     }
 
-    #resumeCards h3 {
+    .resumeCards h3 {
         font-size: 25px;
         margin-bottom: 10px;
     }
 
-    #resumeCards h4 {
+    .resumeCards h4 {
         font-size: 20px;
         margin-bottom: 10px;
     }
 
-    #resumeCards p {
+    .resumeCards p {
         font-size: 16px;
     }
 
@@ -545,44 +535,42 @@
         margin-bottom: 25px;
     }
 
-    /* Education*/
-
-    #education {
+    /* Education */
+    .education {
         margin-right: 50px;
     }
 
-    #education img {
+    .education img {
         width: 90px;
         margin-right: 20px;
     }
 
-    #education h3 {
+    .education h3 {
         font-size: 30px;
     }
 
-    #education h4 {
+    .education h4 {
         font-size: 25px;
     }
 
-    #education p {
+    .education p {
         font-size: 20px;
     }
 
-    #educationCards {
+    .educationCards {
         width: 350px;
     }
 
-
-    #botcamp h3 {
+    .bootcamp h3 {
         font-size: 20px;
         font-weight: 500;
     }
 
-    #botcamp h4 {
+    .bootcamp h4 {
         font-size: 16px;
     }
 
-    #botcamp p {
+    .bootcamp p {
         font-size: 17px;
     }
 
@@ -603,8 +591,7 @@
         margin-top: 50px;
     }
 
-    /* reference*/
-
+    /* Reference */
     .bothRowsElements {
         display: flex;
         justify-content: space-around;
@@ -619,22 +606,22 @@
         margin-bottom: 50px;
     }
 
-    #professionalReference {
+    .professionalReference {
         margin-top: 70px;
     }
 
-    #referenceCards h3 {
+    .referenceCards h3 {
         font-size: 25px;
         font-weight: 500;
         margin-bottom: 10px;
     }
 
-    #referenceCards h4 {
+    .referenceCards h4 {
         font-size: 20px;
         font-weight: 300;
     }
 
-    #referenceCards>a>img {
+    .referenceCards>a>img {
         width: 40px;
         height: 40px;
         border-radius: 50px;
@@ -642,9 +629,11 @@
         margin-top: 20px;
     }
 
-    #professionalReference>img {
-        width: 90px;
-        height: 90px;
-    }
+   
 
+    .referenceImage{
+        width: 150px;
+        height: 150px;
+        border-radius: 100px;
+    }
 }

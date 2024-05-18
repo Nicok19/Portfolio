@@ -3,7 +3,7 @@ import React from 'react';
 const DownloadResume = () => {
     
   const handleDownload = () => {
-    window.open('https://drive.google.com/file/d/1C6_YYDWbWAmc1VOQDimY5SPFn7WQ9KCo/view?usp=sharing', '_blank').focus();
+    window.open('https://drive.google.com/file/d/1uBkQ1VO70QQfRl7OCJzgDfJsaxrnfue-/view?usp=sharing', '_blank').focus();
   };
 
   return (

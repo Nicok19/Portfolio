@@ -7,7 +7,7 @@ const UxComponent = () => {
        
        <div id="titleSkills">
        <h2>What i know about UX?</h2>
-       <p>I have over 7 years of experience working on UX projects. My expertise covers all areas related to UX, including accessibility, writing, information architecture, and service design. However, my greatest expertise lies in research.</p>
+       <p>Providing the best experience for users is essential for the success of a digital project. I have knowledge of all areas of UX, but I have focused my efforts on two areas. The first is <span className="titleDiferential">Accessibility</span> , creating inclusive products following<span className="titleDiferential"> WCAG</span> guidelines, and the second is <span className="titleDiferential">Research</span>, studying users to understand their insights and create products that meet their needs. With these skills, I can create products that are useful for users and achieve the commercial goals defined by clients.</p>
 
        </div>
 
