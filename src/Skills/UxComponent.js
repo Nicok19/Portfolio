@@ -2,20 +2,16 @@ import React from "react";
 
 const UxComponent = () => {
     return (
-       <div id="elements">
+        <div className="elements">
 
-       
-       <div id="titleSkills">
-       <h2>What i know about UX?</h2>
-       <p>Providing the best experience for users is essential for the success of a digital project. I have knowledge of all areas of UX, but I have focused my efforts on two areas. The first is <span className="titleDiferential">Accessibility</span> , creating inclusive products following<span className="titleDiferential"> WCAG</span> guidelines, and the second is <span className="titleDiferential">Research</span>, studying users to understand their insights and create products that meet their needs. With these skills, I can create products that are useful for users and achieve the commercial goals defined by clients.</p>
+            <div className="titleSkills">
+                <h2>What i know about UX?</h2>
+                <p>Providing the best experience for users is essential for the success of a digital project. I have knowledge of all areas of UX, but I have focused my efforts on two areas. The first is <span className="titleDiferential">Accessibility</span> , creating inclusive products following<span className="titleDiferential"> WCAG</span> guidelines, and the second is <span className="titleDiferential">Research</span>, studying users to understand their insights and create products that meet their needs. With these skills, I can create products that are useful for users and achieve the commercial goals defined by clients.</p>
+            </div>
 
-       </div>
-
-
-        
             <div className="bothRows">
-                <div id="rows">
-                    <div id="row">
+                <div className="rows">
+                    <div className="row">
                         <h3>Methodology's</h3>
                         <ul>
                             <li>Design Thinking</li>
@@ -25,7 +21,7 @@ const UxComponent = () => {
                         </ul>
                     </div>
 
-                    <div id="row">
+                    <div className="row">
                         <h3>Research</h3>
                         <ul>
                             <li>Interviews</li>
@@ -38,7 +34,7 @@ const UxComponent = () => {
                         </ul>
                     </div>
 
-                    <div id="row">
+                    <div className="row">
                         <h3>UX Platforms</h3>
                         <ul>
                             <li>Google Analytics</li>
@@ -46,15 +42,13 @@ const UxComponent = () => {
                             <li>Hotjar</li>
                             <li>Miro</li>
                             <li>Google Forms</li>
-                            </ul>
-                            
+                        </ul>
                     </div>
                 </div>
             </div>
 
-            </div>
+        </div>
     );
-    
 };
 
 export default UxComponent;
