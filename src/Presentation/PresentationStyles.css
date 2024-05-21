@@ -67,13 +67,16 @@
   font-weight: 500; 
   margin-bottom: 20px;
   margin-top: 50px;
-  width: 200px;
+  width: 65vw;
+  text-align: center;
 }
 
 .forCell p{
-width: 90%;
+  width: 65vw;
 line-height: 1.5;
 padding-bottom: 30px;
+text-align: center;
+
 
 }
 .videoElement{
@@ -82,7 +85,7 @@ padding-bottom: 30px;
   
 }
   .videoElement video{
-    width: 80vw;
+    width: 70vw;
   }
   }
 

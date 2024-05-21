@@ -1,47 +1,46 @@
-
 /* submenu general styles */
 .buttonStyle {
-    color: #A09E9E;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    border: none;
-    margin-right: 20px;
-    background-color: #F5F5F5;
-    margin-top: 20px;
+  color: #A09E9E;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  margin-right: 20px;
+  background-color: #F5F5F5;
+  margin-top: 20px;
 }
 
 .buttonStyle:hover {
-    color:#007B24;
-    font-size: 22px;
+  color:#007B24;
+  font-size: 22px;
 }
 
 .activeButton {
-color: white;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-padding: 5px;
-background-color:#77D894;
-border-radius: 15px;
+  color: white;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 5px;
+  background-color:#77D894;
+  border-radius: 15px;
 }
 
 /*  end of submenu general styles */
 
-#titleSkills{
+.titleSkills {
   margin-top: 70px;
   max-width: 75%;
 }
 
-#titleSkills p{
+.titleSkills p {
   margin-top: 20px;
-  max-width: 75%;
+  max-width: 90%;
   line-height: 1.5;
 }
 
-#titleSkills h2{
+.titleSkills h2 {
   color: #A09E9E;
   font-size: 35px;
   font-style: normal;
@@ -50,251 +49,242 @@ border-radius: 15px;
 }
 
 
-.bothRows{
-    margin-top: 50px;
-    width: 700px;
-    margin-bottom: 30px;
+.bothRows {
+  margin-top: 50px;
+  width: 700px;
+  margin-bottom: 30px;
 }
 
-#rows{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-top: 20px;
-    margin-bottom: 40px;
+.rows {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 10px;
+  margin-bottom: 40px;
 }
 
-#row{
-   width: 230px;
+.row {
+  width: 230px;
 }
 
-#row h3{
-    color: #A09E9E;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;   
-    margin-bottom: 20px;
+.row h3 {
+  color: #A09E9E;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;   
+  margin-bottom: 20px;
 }
 
-#row ul li {
-    color: #000;
-    font-size: 15px;
-    font-weight: 500;
-    list-style-type: circle; 
-    line-height: 1.2;
+.row ul li {
+  color: #000;
+  font-size: 15px;
+  font-weight: 500;
+  list-style-type: circle; 
+  line-height: 1.2;
 }
 
 .myImage img {
-    width: 380px;
-    position: fixed;
-    bottom: 0;
-    left: 750px;
-    animation: nbertinat 1s ease-in; 
+  width: 380px;
+  position: fixed;
+  bottom: 0;
+  left: 750px;
+  animation: nbertinat 1s ease-in; 
+}
+
+@keyframes nbertinat {
+  from {
+    opacity: 0; 
   }
-  
-  @keyframes nbertinat {
-    from {
-      opacity: 0; 
-    }
-    to {
-      opacity: 1;
-    }
+  to {
+    opacity: 1;
   }
+}
 
-  .designPrograms{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    width: 60%;
-  }
+.designPrograms {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 60%;
+}
 
+.imageContainer img {
+  width: 80px;
+}
 
-  #imageContainer img{
- width: 80px;
-  }
-  
+.imageContainer p {
+  text-align: center;
+  font-size: 13px;
+}
 
-  #imageContainer p{
-    text-align: center;
-    font-size: 13px;
-     }
+.imageContainer {
+  display: inline-block;
+}
 
-  #imageContainer{
-    display: inline-block;
-  }
-  .languages{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    width: 550px;
-  }
+.languages {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 550px;
+}
 
-  #imageContainerProg img{
-    width: 70px;
-    margin-right: 50px;
-    margin-top: 30px;
-     }
+.imageContainerProg img {
+  width: 70px;
+  margin-right: 50px;
+  margin-top: 30px;
+}
 
-     #imageContainerProg p{
-       text-align: center;
-      font-size: 13px;
-      margin-right: 50px;
-       }
-   
-#elements{
+.imageContainerProg p {
+  text-align: center;
+  font-size: 13px;
+  margin-right: 50px;
+}
+
+.elements {
   animation: elementRow 1s ease-in;
 }
 
-.titleDiferential{
+.titleDiferential {
   font-style: italic;
   font-weight: bolder;
 }
-  
 
-    @media screen and (max-width: 1400px) {
 
-    .myImage img{
+@media screen and (max-width: 1400px) {
+  .myImage img {
       display: none;
-    }
+  }
+}
 
-    }
+@media screen and (max-width: 768px) {
+  .languages {
+      width: 90%;
+  }
 
+  .rows {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 0px;
+      margin-bottom: 0px;
+  }
 
-    @media screen and (max-width: 768px) {
+  .row {
+      margin-top: 0px;
+      margin-bottom: 0px;
+  }
 
-      .languages{
-        width: 90%;
-      }
+  .row h3 {
+      margin-top: 20px;
+  }
 
-      #rows{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-top: 0px;
-        margin-bottom: 0px;
+  .bothElements {
+      margin-top: 0px;
+  }
 
-      }
+  .bothRows {
+      margin-bottom: 50px;
+  }
 
-      #row{
-        margin-top: 0px;
-        margin-bottom: 0px;
-      }
+  .imageContainer {
+      margin-bottom: 30px;
+  }
+}
 
-      #row h3{
-        margin-top: 20px;
-      }
+@media screen and (min-width: 1920px) {
+  .buttonStyle {
+      font-size: 27px;
+  }
 
-      .bothElements{
-        margin-top: 0px;
-      }
+  .buttonStyle:hover {
+      font-size: 28px;
+  }
 
-      .bothRows{
-        margin-bottom: 50px;
-      }
-
-      }
-
-
-      @media screen and (min-width: 1920px) {
-
-        .buttonStyle {
-          font-size: 27px;
-      }
-      
-      .buttonStyle:hover {
-          font-size: 28px;
-      }
-      
-      .activeButton {
+  .activeButton {
       font-size: 27px;
       padding: 12px;
       border-radius: 50px;
-      }
+  }
 
-        .myImage img {
-          width: 450px;
-          position: fixed;
-          bottom: 0;
-          left: 1000px;
-        }
+  .myImage img {
+      width: 450px;
+      position: fixed;
+      bottom: 0;
+      left: 1000px;
+  }
 
-        #row h3{
-          font-size: 32px;
-          margin-bottom: 30px;
-        }
+  .row h3 {
+      font-size: 32px;
+      margin-bottom: 30px;
+  }
 
-        #rows{
-          width: 990px;
-          margin-bottom: 100px;
-        }
+  .rows {
+      width: 990px;
+      margin-bottom: 100px;
+  }
 
-        #row{
-          width: 330px;
-        }
+  .row {
+      width: 330px;
+  }
 
-        #row ul li{
-          font-size: 22px;
-          line-height: 1.3;
-        }
+  .row ul li {
+      font-size: 22px;
+      line-height: 1.3;
+  }
 
-        #titleSkills h2{
-          font-size: 60px;
-          margin-bottom: 40px;
-        }
+  .titleSkills h2 {
+      font-size: 60px;
+      margin-bottom: 40px;
+  }
 
-        #titleSkills p{
-          font-size: 20px;
-          line-height: 1.3;
-          margin-bottom: 70px;
-        }
-      
-        #imageContainerProg img{
-          width: 100px;
-        }
+  .titleSkills p {
+      font-size: 20px;
+      line-height: 1.3;
+      margin-bottom: 70px;
+  }
 
-        .languages{
-          width: 700px;
-        }
- 
-      }
+  .imageContainerProg img {
+      width: 100px;
+  }
 
-      @media screen and (max-width: 480px) {
+  .languages {
+      width: 700px;
+  }
+}
 
-     
-        #row{
-          width: 270px;
-        }
+@media screen and (max-width: 480px) {
+  .row {
+      width: 270px;
+  }
 
-        #rows{
-          width: 270px;
-        }
+  .rows {
+      width: 270px;
+  }
 
-        .bothRows{
-          width: 270px;
-          padding-bottom: 30px;
-        }
+  .bothRows {
+      width: 270px;
+      padding-bottom: 30px;
+  }
 
-        .designPrograms{
-          padding-bottom: 30px;
-        }
+  .designPrograms {
+      padding-bottom: 30px;
+  }
 
-        #elements{
-          padding-bottom: 30px;
-        }
-
-      
+  .elements {
+      padding-bottom: 30px;
+  }
+  .languages {
+  justify-content: flex-start;
+  }
 
 
-      }
-
-    
+}
 
 
 
