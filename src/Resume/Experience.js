@@ -19,7 +19,7 @@ const Experience = () => {
                     <div className="workAndPhoto">
                         <a href="https://www.franklincovey.com/about/"><img src="/elements/fc.png" alt="FranklinCovey link" /></a>
                         <div className="resumeCards">
-                            <h3>Product Designer</h3>
+                            <h3>UX/UI Designer</h3>
                             <h4>Franklin Covey</h4>
                             <p>September 2019 - October 2023</p>
                         </div>
