@@ -2,7 +2,7 @@ import React from "react";
 
 const UiComponent = () => {
   return (
-    <div className="elements">
+    <div className="skillsElements">
       <div className="titleSkills">
         <h2>UI without Paint</h2>
         <p>
