@@ -76,6 +76,16 @@
     
 }
 
+@media screen and (max-width: 720px) {
+
+    .contactElement {
+        margin-left:0px;
+    }
+    
+
+}
+
+
 @media screen and (max-width: 480px) {
     .contactElement a {
         font-size: 15px;
