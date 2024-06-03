@@ -404,6 +404,10 @@ background-color: #77D894;
     .wapMargin{
         margin-bottom: 0px;
         }
+
+        .titleElement h2{
+            width: 40vh;
+          }
 }
 
 @media screen and (max-width: 1200px) {
