@@ -42,20 +42,20 @@
     margin-right: 30px;
 }
 
+/* Carrousel */
+.buttonCarrusel {
+    margin: auto;
+    width: 85%;
+  }
+
 /* Experience */
 
-.resumeElements h1 {
-    color: #A09E9E;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
 
 .bothRowsElements {
     display: flex;
-    margin-top: 50px;
     margin-bottom: 60px;
+    width: 85%;
+    margin: auto;
 }
 
 .firstRow {
@@ -119,6 +119,10 @@
     font-size: 18px;
     font-weight: 500;
     margin-top: 40px;
+    width: 85%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
     animation: elementRow 1.5s ease-in;
 }
 
@@ -136,6 +140,8 @@ margin-bottom: 25px;
 
 .bothRowsEducationElements {
     margin-top: 40px;
+    width: 85%;
+    margin: auto;
     animation: elementRow 0.5s ease-in;
 }
 
@@ -192,7 +198,7 @@ margin-bottom: 25px;
     flex-wrap: wrap;
     margin-top: 20px;
     padding-bottom: 10px;
-    width: 70vw;
+    width: 100%;
     border: 1px solid rgb(109, 107, 107);
     padding: 20px;
     border-radius: 20px;
@@ -242,7 +248,7 @@ margin-bottom: 25px;
     font-size: 18px;
     font-weight: 500;
     margin-top: 23px;
-    width: 70vw;
+    width: 700px;
 }
 
 .titleBootcamp {
@@ -299,7 +305,7 @@ margin-bottom: 25px;
 }
 
 .referenceCards {
-    width: 300px;
+    width: 220px;
 }
 
 .referenceCards h3 {
@@ -313,7 +319,7 @@ margin-bottom: 25px;
 
 .referenceCards h4 {
     color: #000;
-    font-size: 17px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
@@ -325,6 +331,7 @@ padding: 5px;
 border-radius: 5px;
 background-color: none;
 margin-top: 10px;
+font-size: 12px;
 }
 
 .referenceContactButton:hover{
@@ -478,6 +485,8 @@ background-color: #77D894;
 
     .titleElement h2 {
         line-height: 1.3;
+        width: 60vw;
+        margin-bottom: 50px;
     }
 
     .titleElement {
@@ -499,23 +508,32 @@ background-color: #77D894;
 
 
 
-
-
 @media screen and (min-width: 1920px) {
     /* Experience */
+
+    .bothRowsElements{
+        width: 80%;
+        margin: auto;
+    }
+
+    .buttonCarrusel {
+      margin: auto;
+      width: 75%;
+    }
+
     .bothRowsElements {
-        margin-top: 100px;
+        margin-top: 50px;
     }
 
     .workAndPhoto {
-        width: 700px;
+        width: 550px;
         height: 200px;
-        margin-bottom: 40px;
+        margin-bottom: 5px;
     }
 
     .workAndPhoto img {
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
         margin-right: 40px;
     }
 
@@ -535,25 +553,33 @@ background-color: #77D894;
 
     .titleworkElement {
         font-size: 25px;
-        margin-bottom: 25px;
+        margin-bottom: 0px;
+        margin: auto;
+        width: 75%;
+        padding-top: 60px;
     }
 
     /* Education */
     .education {
-        margin-right: 50px;
+        margin-right: 0px;
+    }
+
+    .bothRowsEducationElements{
+        width: 75%;
+        margin: auto;
     }
 
     .education img {
-        width: 90px;
+        width: 70px;
         margin-right: 20px;
     }
 
     .education h3 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .education h4 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .education p {
@@ -562,6 +588,11 @@ background-color: #77D894;
 
     .educationCards {
         width: 350px;
+    }
+
+    .generalBootcamp{
+        width: 95%;
+       
     }
 
     .bootcamp h3 {
@@ -579,19 +610,21 @@ background-color: #77D894;
 
     .titleElement h2 {
         font-size: 25px;
-        margin-bottom: 25px;
+        margin-bottom: 30px;
+        padding-top: 30px;
+        width: 100%;
     }
 
     .titleElement h3 {
-        font-size: 20px;
+        font-size: 25px;
         margin-bottom: 25px;
-        margin-top: 50px;
+        margin-top: 90px;
     }
 
     .titleBootcamp {
-        font-size: 20px;
+        font-size: 25px;
         margin-bottom: 25px;
-        margin-top: 50px;
+        margin-top: 90px;
     }
 
     /* Reference */
@@ -620,23 +653,14 @@ background-color: #77D894;
     }
 
     .referenceCards h4 {
-        font-size: 20px;
+        font-size: 17px;
         font-weight: 300;
     }
 
-    .referenceCards>a>img {
-        width: 40px;
-        height: 40px;
-        border-radius: 50px;
-        margin-right: 50px;
-        margin-top: 20px;
-    }
-
-   
 
     .referenceImage{
-        width: 150px;
-        height: 150px;
+        width: 100px;
+        height: 100px;
         border-radius: 100px;
     }
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 const FrontEndComponent = () => {
     return (
-        <div className="elements">
+        <div className="skillsElements">
             <div className="titleSkills">
                 <h2>Now, all this into code</h2>
                 <p>

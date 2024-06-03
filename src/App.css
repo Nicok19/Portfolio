@@ -76,8 +76,6 @@ justify-content:space-between;
 align-items: center;
 border-bottom: 1px solid #77D894;
 margin-top: -30px;
-
-
 }
 
 header img{
@@ -88,9 +86,9 @@ header img{
 }
 
 header h4{
-padding-right: 40px;
+padding-right: 70px;
 color: #A09E9E;
-font-size: 20px;
+font-size: 15px;
 font-style: normal;
 font-weight: 400;
 margin-bottom: 20px;
@@ -171,6 +169,28 @@ animation: headerh4 1s ease-in;
 
 
 /* Responsive area */
+
+@media screen and (min-width: 1920px) {
+
+  header{
+width: 80%;
+margin: auto;
+    }
+    
+    header img{
+      width: 200px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1100px) {
 
   .container{
@@ -217,12 +237,6 @@ animation: headerh4 1s ease-in;
 }
 
 
-
-
-
-
-
-  
 
 @media screen and (max-width: 480px) {
 

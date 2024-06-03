@@ -2,7 +2,7 @@ import React from "react";
 
 const UxComponent = () => {
     return (
-        <div className="elements">
+        <div className="skillsElements">
 
             <div className="titleSkills">
                 <h2>What i know about UX?</h2>
