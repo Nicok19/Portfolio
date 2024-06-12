@@ -28,16 +28,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 70px;
+    margin-top: 90px;
+    margin: auto;
   }
 
   .videoElement video{
-    width: 55vw;  
+    width: 45vw;  
+    margin: auto;
   }
 
 .forCell{
   display: block;
-  width: 50vw; 
+  width: 45vw; 
   margin: auto;
   margin-top: 40px;
 }
