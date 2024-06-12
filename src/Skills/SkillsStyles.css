@@ -211,11 +211,11 @@
 }
   
   .buttonStyle {
-      font-size: 27px;
+      font-size: 22px;
   }
 
   .buttonStyle:hover {
-      font-size: 28px;
+      font-size: 24px;
   }
 
   .activeButton {
