@@ -1,0 +1,71 @@
+.skills{
+  width: 85%;
+  margin: auto;
+}
+
+.skills__elements {
+  margin-top: 70px;
+  max-width: 70%;
+}
+
+.skills__paragraph {
+  margin-top: 5vh;
+  max-width: 90%;
+  line-height: 1.5;
+  font-size: 2vh;
+}
+
+.skills__title {
+  color: #676666;
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+
+.myImage__image {
+  width: 50vh;
+  position: fixed;
+  bottom: 0;
+  left: 52%;
+  animation: nbertinat 1s ease-in; 
+}
+
+@keyframes nbertinat {
+  from {
+    opacity: 0; 
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.elements {
+  animation: elementRow 1s ease-in;
+}
+
+.titleDiferential {
+  font-style: italic;
+  font-weight: bolder;
+}
+
+
+
+
+
+
+      
+
+
+
+
+  
+
+
+  
+  
+
+
+
+

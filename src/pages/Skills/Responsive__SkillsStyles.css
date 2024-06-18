@@ -1,0 +1,27 @@
+
+@media screen and (max-width: 1400px) {
+    .myImage img {
+        display: none;
+    }
+  }
+  
+  
+  @media screen and (max-width: 480px) {
+    .myImage img {
+        display: none;
+    }
+  
+    .skills__paragraph {
+      margin-top: 20px;
+      max-width: 100%;
+      line-height: 1.5;
+    }
+  
+    .skills__title {
+      font-size: 7.5vw;
+  
+    }
+    
+  
+  }
+  

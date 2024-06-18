@@ -1,0 +1,29 @@
+
+  @media screen and (max-width: 768px) {
+    .languages {
+        width: 90%;
+        padding-bottom: 20px;
+    }
+
+    .languages__image {
+        width: 10vw;
+        margin-right: 6vh;
+        margin-top: 3vh;
+      }
+  
+  }
+  
+ 
+  @media screen and (max-width: 480px) {
+    .languages {
+    justify-content: flex-start;
+    padding-bottom: 50px;
+    }
+    .languages__image {
+        width: 20vw;
+        margin-right: 6vh;
+        margin-top: 3vh;
+      }
+  
+  
+  }

@@ -43,7 +43,7 @@ justify-content: center;
 .navBar ul li a{
   margin-top: 35px;
   color: #FFF;
-font-size: 35px;
+font-size: 2.5vw;
 font-style: normal;
 font-weight: bold;
 line-height: normal;
@@ -88,7 +88,7 @@ header img{
 header h4{
 padding-right: 70px;
 color: #A09E9E;
-font-size: 15px;
+font-size: 1.3vw;
 font-style: normal;
 font-weight: 400;
 margin-bottom: 20px;
@@ -167,121 +167,3 @@ animation: headerh4 1s ease-in;
   transform: translateY(0px) rotate(45deg);
 }
 
-
-/* Responsive area */
-
-@media screen and (min-width: 1920px) {
-
-  header{
-width: 80%;
-margin: auto;
-    }
-    
-    header img{
-      width: 200px;
-    }
-
-}
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 1100px) {
-
-  .container{
-    height: 100px;
-  }
-  .menuToggle {
-    display: block;
-  }
-
-  header h4{
-    display: none;
-    width: 80%;
-  }
-
-.container > nav{
-  display: flex;
-  justify-content:center;
-  align-items: center;
-}
-  .navBar {
-    width: 20%;
-    height: 100px;
-  }
-  
-  .navBar ul {
-    display: none;
-  }
-
-
-  .navBar ul.active {
-    display: block;
-  }
-  .elements .menu-open{
-    width: 0px;
-  }
-
-  .container .menu-open{
-    width: 100%;
-  }
-
-  .navBar.open {
-    width: 100%;
-  }
-}
-
-
-
-@media screen and (max-width: 480px) {
-
-  .container {
-    width: 100vw;
-  }
-  .menuToggle {
-    display: block;
-
-  }
-
-  .navBar ul{
-    margin-top: 0px; 
- }
-
-  header{
-    border-bottom: 0px solid #77D894;
-    width: 80vw;
-  }
-  header h4{
-    display: none;
-  }
-
-.container > nav{
-  display: flex;
-  justify-content:center;
-  align-items: center;
-}
-  .navBar {
-    width: 20vw;
-    height: 100px;
-  }
-  
-  .navBar ul {
-    display: none;
-  }
-
-  .navBar ul.active {
-    display: block;
-  }
-
-  
-  .navBar.open {
-    width: 100%;
-   
-  }
-  
-}

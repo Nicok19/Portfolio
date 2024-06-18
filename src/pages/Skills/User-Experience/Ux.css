@@ -1,0 +1,33 @@
+.rows {
+    margin-top: 50px;
+    width: 50vw;
+    margin-bottom: 30px;
+  }
+  
+  .rows__elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .rows__ul {
+    width: 230px;
+  }
+  
+  .rows__ul h3 {
+    color: #A09E9E;
+    font-size: 1.3vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;   
+    margin-bottom: 20px;
+  }
+  
+  .rows__ul ul li {
+    color: #000;
+    font-size: 1vw;
+    font-weight: 500;
+    line-height: 1.3;
+  }
