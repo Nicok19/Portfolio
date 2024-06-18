@@ -1,0 +1,46 @@
+
+  @media screen and (max-width: 768px) {
+ 
+  
+    .rows__elements {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+  
+    .rows__elements {
+        margin-top: 10vh;
+        margin-bottom: 0px;
+    }
+ 
+  
+    .rows__ul {
+        margin-bottom: 30px;
+    }
+  
+  }
+  
+
+  
+  @media screen and (max-width: 480px) {
+    .rows_ul {
+        width: 270px;
+    }
+  
+    .rows__elements {
+        width: 270px;
+    }
+
+    .rows__ul h3 {
+      font-size: 6vw;
+    }
+
+    .rows__ul ul li {
+      font-size: 4vw;
+
+    }
+  
+  }
+  

@@ -1,6 +1,7 @@
 import React from "react";
 import VideoComponent from './VideoComponent';
 import './PresentationStyles.css';
+import './Responsive__PresentationStyles.css';
 
 const Presentation = () =>{
 

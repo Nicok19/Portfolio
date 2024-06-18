@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import './App.css';
+import './Home.css';
+import './Responsive__Home.css';
 import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
-import Presentation from './Presentation';
-import Resume from './Resume';
-import Contact from './Contact';
-import Portfolio from './Portfolio';
-import Skills from './Skills';
+import Presentation from '../Presentation';
+import Resume from '../Resume';
+import Contact from '../Contact';
+import Portfolio from '../Portfolio';
+import Skills from '../Skills';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,7 +17,7 @@ function App() {
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth > 1100 && isMenuOpen) {
+      if (window.innerWidth > 768 && isMenuOpen) {
         setIsMenuOpen(false);
       }
     };

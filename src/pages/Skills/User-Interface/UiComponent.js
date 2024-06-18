@@ -1,11 +1,14 @@
 import React from "react";
+import './Ui.css';
+import './Responsive__Ui.css';
+
 
 const UiComponent = () => {
   return (
-    <div className="skillsElements">
-      <div className="titleSkills">
-        <h2>UI without Paint</h2>
-        <p>
+    <div className="skills">
+      <div className="skills__elements">
+        <h2 className="skills__title">UI without Paint</h2>
+        <p className="skills__paragraph">
         I have worked on various projects creating graphical interfaces for both applications and websites. I have extensive experience with numerous design programs and a deep understanding of <span className="titleDiferential">Design Systems and Methodologies</span>.
         </p>
       </div>

@@ -1,0 +1,33 @@
+# Documentation for App.js (lines 31-49)
+
+This JavaScript code snippet is a part of a React component that renders a navigation bar for a website. It uses React Router (`<Router>`) for navigation between different pages of the website.
+
+## Structure
+
+The main container for the navigation bar is a `<div>` element with a class of 'container'. The 'menu-open' class is conditionally added to this div based on the state of the `isMenuOpen` state variable. When `isMenuOpen` is `true`, the 'menu-open' class is added, otherwise, it is not.
+
+Inside the container, there is a `<nav>` element with a class of 'navBar'. Similar to the container, the 'open' class is conditionally added to the navBar based on the state of `isMenuOpen`.
+
+The navBar contains a 'menuToggle' div, which when clicked, calls the `toggleMenu` function. This function presumably toggles the state of `isMenuOpen`, which in turn controls the appearance of the navigation bar and the menu toggle button.
+
+The 'menuToggle' div contains three 'bar' divs, which presumably represent the three lines of a hamburger menu icon. The 'hide', 'rotate-top', and 'rotate-bottom' classes are conditionally added to these bars based on the state of `isMenuOpen`. These classes presumably control the animation of the hamburger menu icon when it is clicked.
+
+The navBar also contains a `<ul>` element, which contains three `<li>` elements. Each `<li>` element contains a `<NavLink>` component from React Router, which represents a link in the navigation bar.
+
+## Navigation Links
+
+The navigation bar contains three links: 'About Me', 'Skills', and 'Resume'. Each link is a `<NavLink>` component from React Router, which renders a special version of the `<a>` HTML element that will automatically add the 'active' class when the current location matches the `to` prop. The `to` prop is used to specify the path of the page that the link should navigate to.
+
+When any of these links is clicked, the `setIsMenuOpen` function is called with `false` as the argument, which will close the menu. This is presumably to ensure that the menu closes after a user has clicked a link, which is a common behavior in responsive or mobile navigation menus.
+
+## CSS Classes
+
+The CSS classes used in this code snippet presumably control the appearance and animation of the navigation bar and the menu toggle button. However, without the actual CSS code, it's hard to say exactly what each class does. Here's a guess based on their names:
+
+- 'container' and 'navBar': These are likely the main classes for the container and the navigation bar, respectively. They probably contain styles for layout, positioning, and basic appearance.
+- 'menu-open' and 'open': These classes are likely added when the menu is open. They probably contain styles for changing the appearance of the container and the navigation bar when the menu is open.
+- 'menuToggle': This is likely the class for the menu toggle button. It probably contains styles for the appearance of the button.
+- 'bar': This is likely the class for the lines of the hamburger menu icon. It probably contains styles for the appearance of the lines.
+- 'hide': This class is likely added to the first line of the hamburger menu icon when the menu is open. It probably contains styles for hiding the line.
+- 'rotate-top' and 'rotate-bottom': These classes are likely added to the second and third lines of the hamburger menu icon when the menu is open. They probably contain styles for rotating the lines to create an 'X' shape.
+- 'active': This class is automatically added by the `<NavLink>` component when the current location matches the `to` prop. It probably contains styles for highlighting the active link.
