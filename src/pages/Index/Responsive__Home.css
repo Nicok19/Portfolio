@@ -1,4 +1,26 @@
 
+/* Laptop*/
+@media screen and (max-width: 1500px) {
+
+  header h4{
+    font-size: 1.2rem;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+ .navBar{
+  width: 40%;
+ }
+
+ header h4{
+  font-size: 12px;
+  }
+
+}
+
+
 /* Tablet */
 
   @media screen and (max-width: 768px) {
@@ -28,6 +50,10 @@
     .navBar ul {
       display: none;
     }
+
+    .navBar ul li a{
+      font-size: 7vw;
+          }
   
   
     .navBar ul.active {
@@ -61,7 +87,6 @@
 
     .navBar ul li a{
     font-size: 9vw;
-
         }
     
     

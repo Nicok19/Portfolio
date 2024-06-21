@@ -1,0 +1,160 @@
+/* Laptop*/
+
+@media screen and (max-width: 1500px) {
+
+
+.bothRowsElements{
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+.professionalRow__reference {
+    padding-bottom: 5vh;
+    width: 20vw;
+}
+
+
+.academicRow__reference {
+    padding-bottom: 5vh;
+    width: 20vw;
+}
+
+
+.personalReferenceMargin{
+    margin-top: 20px;
+}
+
+.referenceImage {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50px;
+}
+
+.titleReference h2 {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+    margin-right: 50px;
+}
+
+.referenceCards {
+    width: 80%;
+}
+
+.referenceCards h3 {
+    color: #000;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+
+.referenceCards h4 {
+    font-size: 0.8rem;
+}
+
+.referenceContactButton{
+font-size: 0.7rem;
+}
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .referenceImage {
+     display: none;
+    }
+      
+}
+
+
+
+
+/* tablet*/
+
+@media screen and (max-width: 768px) {
+
+
+    .bothRowsElements{
+        justify-content: space-around;
+        margin-top: 20px;
+        width: 90%;
+        margin: auto;
+        flex-direction: column;
+    }
+    
+    .professionalRow__reference {
+        padding-bottom: 5vh;
+        width: 70vw;
+    }
+    
+    
+    .academicRow__reference {
+        padding-bottom: 5vh;
+        width: 70vw;
+    }
+    
+    
+    .personalReferenceMargin{
+        margin-top: 20px;
+        margin-bottom: 10vh;
+    }
+    
+    .referenceImage {
+        width: 80px;
+        height: 80px;
+        border-radius: 50px;
+        display: block;
+    }
+    
+    .titleReference h2 {
+        color: #A09E9E;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 500;
+        margin-bottom: 5vh;
+        margin-top: 2vh;
+        margin-right: 50px;
+    }
+    
+    .referenceCards {
+        width: 80%;
+    }
+    
+    .referenceCards h3 {
+        color: #000;
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 1rem;
+    }
+    
+    .referenceCards h4 {
+        font-size: 0.8rem;
+    }
+    
+    .referenceContactButton{
+    font-size: 0.7rem;
+    }
+    
+    }
+
+
+/* cellphone*/
+
+@media screen and (max-width: 480px) {
+
+    .referenceImage {
+        display: none;
+    }
+
+}
+
+
+
+
+ 

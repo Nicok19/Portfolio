@@ -1,0 +1,86 @@
+
+/* Tablet */
+
+@media screen and (max-width: 768px) {
+
+     .socialMedia{
+        width: 100%;
+        height: 11vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        margin-bottom: 1vh;
+     }
+    .socialMedia__container {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1200;
+    }
+    
+    .socialMedia__title{
+        margin-right: 4rem;
+        font-size: 2.5vw;
+        font-weight: bold;
+
+    }
+
+    .socialMedia__images img {
+        width: 16vw;
+        }
+        
+    
+
+}
+
+
+/* Cellphone */
+
+@media screen and (max-width: 480px) {
+
+    .socialMedia{
+        width: 100%;
+        height: 11vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        margin-bottom: 1vh;
+     }
+
+
+    .socialMedia__container {
+        width: 80%;
+        height: auto;
+        height: 11vh;
+    }
+
+
+    .socialMedia__title{
+        margin-right: 2rem;
+        font-size: 0.8rem;
+        font-weight: bold;
+
+    }
+
+
+    .socialMedia__images a {
+        width: 100px;
+   }
+    .socialMedia__images img {
+        width: 3rem;
+        padding: 0px;
+        margin-right: 10px;
+        }
+        
+
+}
+
+
+   

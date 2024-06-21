@@ -1,0 +1,109 @@
+/* Reference */
+
+
+.references{
+    width: 82%;
+    padding-top: 5vh;
+}
+.bothRowsElements{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+
+.professionalRow {
+    animation: elementRow 1s ease-in;
+}
+
+.academicRow {
+    animation: elementRow 2s ease-in;
+}
+
+.professionalRow__reference {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 5vh;
+    width: 20vw;
+    animation: elementRow 0.5s ease-in;
+}
+
+@keyframes elementRow {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+.academicRow__reference {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 5vh;
+    width: 20vw;
+    animation: elementRow 0.5s ease-in;
+}
+
+
+.personalReferenceMargin{
+    margin-top: 40px;
+}
+
+.referenceImage {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+.titleReference h2 {
+    color: #A09E9E;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 3rem;
+    margin-right: 50px;
+}
+
+.referenceCards {
+    width: 80%;
+}
+
+.referenceCards h3 {
+    color: #000;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+
+.referenceCards h4 {
+    color: #000;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.referenceContactButton{
+padding: 5px;
+border-radius: 5px;
+background-color: none;
+margin-top: 10px;
+font-size: 1.2rem;
+}
+
+.referenceContactButton:hover{
+background-color: #77D894;
+    
+    }
+
+.referenceCards img:hover {
+    opacity: 0.5;
+}

@@ -10,8 +10,14 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #F5F5F5;
     background-image: url('https://imgur.com/B6jrfUC.png');
-
+    overflow-y: hidden;
     background-size: cover;
 }
+
+@media screen and (max-width: 1400px) {
+    body {
+      overflow-y: auto;
+    }
+  }
 
 

@@ -1,12 +1,104 @@
 
+/* Laptop */
+
+
 @media screen and (max-width: 1400px) {
     .myImage img {
         display: none;
     }
   }
+
+  @media screen and (max-width: 1500px) {
+  
+
+    
+    .skills__title {
+      font-size: 2.5rem;
+    }
+
+    .skills__paragraph {
+      margin-top: 1rem;
+      max-width: 90%;
+      line-height: 1.5;
+      font-size: 1vw;
+    }
+
+    .skills__elements {
+      margin-top: 40px;
+    }
+
+    .rows__ul{
+      width: 200px;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+
+ 
+    .skills__title {
+      font-size: 1.5rem;
+    }
+
+    .skills__paragraph {
+      margin-top: 1rem;
+      max-width: 100%;
+      line-height: 1.5;
+      font-size: 1.5vh;
+    }
+
+    .skills__elements {
+      margin-top: 40px;
+      width: 500px;
+    }
+
+    .rows__ul{
+      width: 200px;
+    }
+  }
   
   
+  /* Tablet*/
+  @media screen and (max-width: 760px) {
+    .myImage img {
+        display: none;
+    }
+
+    .skills{
+      width: 90vw;
+      margin-left: 25px;
+  
+    }
+  
+    .skills__paragraph {
+      margin-top: 20px;
+      width: 100%;
+      line-height: 1.5;
+    }
+  
+    .skills__title {
+      font-size: 2rem;
+  
+    }
+    
+  
+  }
+  
+
+
+
+
+
+
+  
+
+  /* Cellphone */
   @media screen and (max-width: 480px) {
+
+
+    .skills{
+      width: 100%;
+    }
+    
     .myImage img {
         display: none;
     }
@@ -18,7 +110,7 @@
     }
   
     .skills__title {
-      font-size: 7.5vw;
+      font-size: 2rem;
   
     }
     

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import UiComponent from '../pages/Skills/User-Interface/UiComponent';
-import UxComponent from '../pages/Skills/User-Experience/UxComponent';
-import FrontEndComponent from '../pages/Skills/Front-end/FeComponent';
+import UiComponent from '../User-Interface/UiComponent';
+import UxComponent from '../User-Experience/UxComponent';
+import FrontEndComponent from '../Front-End/FeComponent';
 import './subMenu.css';
 
 const SubmenuSkills = () => {

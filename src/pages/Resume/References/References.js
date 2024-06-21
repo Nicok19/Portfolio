@@ -1,17 +1,18 @@
 import React from "react";
+import "./References.css";
+import "./Responsive__references.css";
+
 
 const References = () => {
     return (
-        <div>
-            <h2 className="titleworkElement">
-                If you want to get references from me, I invite you to contact them through LinkedIn:
-            </h2>
+        <div className="references">
+       
             <div className="bothRowsElements">
 
-                <div className="professionalRow">
+                <div className="titleReference">
                     <h2>Professional References</h2>
 
-                    <div className="professionalReference">
+                    <div className="professionalRow__reference">
                         <div className="referenceCards">
                             <h3>Guillermo Garrone</h3>
                             <h4>Owner, FranklinCovey <br/> in South Cone</h4>
@@ -22,7 +23,7 @@ const References = () => {
                         <img className="referenceImage" src="/elements/guillermo.jpeg" alt="Guillermo Garrone" />
                     </div>
 
-                    <div className="professionalReference personalReferenceMargin">
+                    <div className="professionalRow__reference">
                         <div className="referenceCards">
                             <h3>Pablo Etcheverry</h3>
                             <h4>CBC & Mentor C-Level</h4>
@@ -34,9 +35,11 @@ const References = () => {
                     </div>
                 </div>
 
-                <div className="academicRow">
+                <div className="titleReference">
                     <h2>Academic References</h2>
-                    <div className="professionalReference">
+
+                    <div className="academicRow__reference">
+
                         <div className="referenceCards">
                             <h3>Dinorah Margounato</h3>
                             <h4>Marketing Chair Coordinator <br/> at ORT University</h4>
@@ -48,7 +51,7 @@ const References = () => {
                     </div>
 
 
-                    <div className="professionalReference  personalReferenceMargin">
+                    <div className="academicRow__reference  personalReferenceMargin">
                         <div className="referenceCards">
                             <h3>Sergio Álvarez</h3>
                             <h4>ORT University Teacher</h4>

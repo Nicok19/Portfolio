@@ -1,29 +1,95 @@
-
-  @media screen and (max-width: 768px) {
-    .languages {
-        width: 90%;
-        padding-bottom: 20px;
-    }
-
-    .languages__image {
-        width: 10vw;
-        margin-right: 6vh;
-        margin-top: 3vh;
-      }
-  
+/* Laptop */
+@media screen and (max-width: 1500px) {
+  .languages {
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+      width: 35vw;
   }
-  
- 
-  @media screen and (max-width: 480px) {
-    .languages {
-    justify-content: flex-start;
-    padding-bottom: 50px;
-    }
-    .languages__image {
-        width: 20vw;
-        margin-right: 6vh;
-        margin-top: 3vh;
-      }
-  
-  
+
+  .languages__container {
+      width: 6vw;
+      margin-right: 1rem;
+      display: flex;
+      flex-direction: column; 
+      justify-content: center; 
+      align-items: center; 
   }
+
+  .languages__image {
+      width: 60px;
+      margin-right: 0; 
+      margin-top: 4vh;
+  }
+
+  .languages__paragraph {
+      font-size: 1vw;
+      text-align: center;
+      margin: 0px;
+      padding-top: 10px;
+  }
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+  .languages {
+      width: 90%;
+      padding-bottom: 20px;
+      justify-content: flex-start;
+  }
+
+  .languages__container {
+      width: 20vw;
+      margin-right: 1rem;
+      display: flex;
+      justify-content: space-between; 
+      align-items: space-around; 
+      flex-wrap: wrap;
+      margin-left: 0px;
+      margin-bottom: 1rem;
+  }
+
+  .languages__image {
+      width: 10vw;
+      margin-top: 3vh;
+  }
+
+  .languages__paragraph {
+      font-size: 2vw;
+  }
+}
+
+/* Celular */
+@media screen and (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .languages {
+    width: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+
+  .languages__container {
+    width: auto;
+    margin: 0;
+    margin-right: 20px;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .languages__image {
+    width: 60px; 
+    margin-bottom: 0.5rem; /* Espacio entre la imagen y el párrafo */
+  }
+
+  .languages__paragraph {
+    font-size: 10px;
+    text-align: center;
+    margin: 0; /* Elimina márgenes que puedan desalinear el texto */
+    padding: 0; /* Elimina rellenos que puedan desalinear el texto */
+  }
+}
