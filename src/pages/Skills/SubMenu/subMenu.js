@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import UiComponent from '../User-Interface/UiComponent';
-import UxComponent from '../User-Experience/UxComponent';
-import FrontEndComponent from '../Front-End/FeComponent';
+import UiComponent from '../UserInterface/UiComponent';
+import UxComponent from '../UserExperience/UxComponent';
+import FrontEndComponent from '../FrontEnd/FeComponent';
 import '../../../Styles/subMenu.css';
 
 
