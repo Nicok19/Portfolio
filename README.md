@@ -1,4 +1,3 @@
-Portfolio
 Welcome to my portfolio! The purpose of this website is to showcase my skills and provide samples of my work.
 
 Project Overview
