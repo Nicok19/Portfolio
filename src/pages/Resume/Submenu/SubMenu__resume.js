@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Education from './Education';
-import References from './References';
-import Experience from './Experience';
+import Education from '../Education/Education';
+import References from '../References/References';
+import Experience from '../Experience/Experience';
 
 const SubMenu = () => {
     const [activeComponent, setActiveComponent] = useState('Experience'); 

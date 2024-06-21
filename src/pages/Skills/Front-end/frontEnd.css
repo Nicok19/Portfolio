@@ -3,19 +3,19 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 3vh;
-  margin-bottom: 2vh;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
   width: 40vw;
 }
 
 .languages__image {
-  width: 5vw;
-  margin-right: 6vh;
-  margin-top: 3vh;
+  width: 80px;
+  margin-right: 6rem;
+  margin-top: 3rem;
 }
 
 .languages__paragraph {
   text-align: center;
   font-size: 13px;
-  margin-right: 50px;
+  margin-right: 6rem;
 }

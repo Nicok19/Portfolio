@@ -1,7 +1,38 @@
+@media screen and (max-width: 1500px) {
+    
+    
+    .imageContainer {
+       margin-right: 1vw;
+      }
+    
+    
+    .imageContainer img {
+        width: 60px;
+      }
+      
+      .imageContainer p {
+        font-size: 10px;
+        margin-bottom: 3vh;
+      }
+
+      .designPrograms {
+        justify-content: flex-start;
+      }
+
+  }
+
+
+
+
 @media screen and (max-width: 480px) {
     .imageContainer {
-        margin-bottom: 30px;
+        margin-bottom: 10px;
       }
+
+      .imageContainer {
+        margin-right: 4vw;
+       }
+     
       
   
   }

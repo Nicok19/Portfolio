@@ -1,0 +1,21 @@
+SubMenu__resume.js
+
+This JavaScript file is a React component named SubMenu. It is responsible for rendering a sub-menu that allows users to switch between different components: Experience, Education, and References.
+
+Imports:
+- React and useState from 'react': useState is a Hook that lets you add React state to function components.
+- Education from '../Education/Education': This is a component that presumably displays educational information.
+- References from '../References/References': This is a component that presumably displays reference information.
+- Experience from '../Experience/Experience': This is a component that presumably displays work experience information.
+
+State:
+- activeComponent: This state variable is used to keep track of the currently active component. It is initially set to 'Experience'.
+
+Functions:
+- handleToggleComponent: This function takes a component name as an argument and sets the activeComponent state to the given component.
+
+Render:
+- The render method returns a div element with two child divs. The first child div contains buttons that allow the user to switch between the Experience, Education, and References components. The second child div renders the currently active component.
+
+Export:
+- The SubMenu component is exported for use in other parts of the application.

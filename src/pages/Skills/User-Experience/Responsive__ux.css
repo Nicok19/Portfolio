@@ -1,4 +1,55 @@
 
+/* Laptop */
+
+@media screen and (max-width: 1500px) {
+
+  .rows__ul {
+    width: 270px;
+  }
+  
+  .rows__ul h3 {
+    color: #A09E9E;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;   
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+  }
+  
+  .rows__ul ul li {
+    color: #000;
+    font-size: 1vw;
+    font-weight: 500;
+    line-height: 1.7;
+  }
+
+}
+
+@media screen and (max-width: 900px) {
+
+  .rows__ul {
+    width: 200px;
+  }
+  
+  .rows__ul h3 {
+    font-size: 1rem;
+
+  }
+  
+  .rows__ul ul li {
+    font-size: 0.8rem;
+  }
+
+}
+
+
+
+
+
+
+
+
   @media screen and (max-width: 768px) {
  
   

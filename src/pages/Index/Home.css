@@ -43,7 +43,7 @@ justify-content: center;
 .navBar ul li a{
   margin-top: 35px;
   color: #FFF;
-font-size: 2.5vw;
+font-size: 2.2rem;
 font-style: normal;
 font-weight: bold;
 line-height: normal;
@@ -88,7 +88,7 @@ header img{
 header h4{
 padding-right: 70px;
 color: #A09E9E;
-font-size: 1.3vw;
+font-size: 1.5rem;
 font-style: normal;
 font-weight: 400;
 margin-bottom: 20px;

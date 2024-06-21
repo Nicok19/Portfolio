@@ -4,9 +4,13 @@
 }
 
 
+.videoElement{
+  display: flex;
+  justify-content: center;
+  }
+
 .videoElement video{
-  width: 80%;  
-  margin-left: 90px;
+  width: 85%;  
   margin-top: 40px;
   animation: video 1s ease-in; 
   border: none;

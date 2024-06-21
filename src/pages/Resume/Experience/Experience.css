@@ -1,0 +1,108 @@
+
+.experience{
+    padding-top: 5vh;
+    margin: auto;
+    
+}
+
+.experienceAndPhoto{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+
+.experience__rows {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    width: 40%;
+    margin-left: 8%;
+}
+
+.experience__firstRow {
+    animation: elementRow 0.5s ease-in;
+}
+
+@keyframes elementRow {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.experience__secondRow {
+    animation: elementRow 2s ease-in;
+    margin-bottom: 0px;
+}
+
+.experience__work h3 {
+    color: #000;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+.experience__work h4 {
+    color: #000;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 3%;
+}
+
+.experience__work p {
+    color: #000;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 5%;
+}
+
+
+.experience__workAndPhoto {
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.experience__photo {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 5px;
+    margin-right: 2.5vw;
+    padding: 5px;
+}
+
+.experience__workAndPhoto img:hover {
+    opacity: 0.5;
+}
+
+.wapMargin{
+margin-bottom: 25px;}
+
+.titleworkElement {
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 40px;
+    width: 85%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    animation: elementRow 1.5s ease-in;
+}
+
+.me__photo{
+    width: 35vw;
+}
+
+.me{
+    width: 50%;
+}

@@ -1,4 +1,7 @@
 import React from 'react';
+import './DownloadResume.css';
+import './Responsive__DownloadResume.css';
+
 
 const DownloadResume = () => {
     
@@ -8,8 +11,10 @@ const DownloadResume = () => {
 
   return (
     <div className='download'>
-    <h3>Learn more about me</h3>
-    <button onClick={handleDownload}>Download Resume</button>
+    <div className='download__container'>
+    <h3 className='download__title'>Learn more about me</h3>
+    <button className='download__button' onClick={handleDownload}>Download Resume</button>
+    </div>
     </div>
   );
 };
