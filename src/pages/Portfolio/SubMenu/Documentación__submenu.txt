@@ -1,0 +1,25 @@
+SubMenu.js
+
+This JavaScript file defines a React functional component named SubMenu, which is responsible for rendering a submenu interface that allows users to toggle between two different components: Behance and Github.
+
+Imports:
+- React and useState from 'react': useState is a Hook that allows you to add React state to function components.
+- Behance from '../BehanceAndGithub/Behance': This component likely displays content or information related to Behance projects.
+- Github from '../BehanceAndGithub/Github': This component likely displays content or information related to Github repositories.
+- subMenu.css from '../../../Styles/subMenu.css': This stylesheet is used to apply styles to the SubMenu component.
+
+Component State:
+- activeComponent: A state variable initialized with 'Behance'. It is used to track which component (Behance or Github) is currently active.
+
+Functions:
+- handleToggleComponent: A function that takes a component name as an argument and sets the activeComponent state to the given component. This function is used to switch between the Behance and Github components.
+
+Render:
+- The component returns a div element with the class "cardCarousel".
+- Inside this div, there is another div with the class "buttonCarrusel" that contains two buttons. These buttons allow the user to toggle between the Behance and Github components.
+- Each button has a dynamic class name that changes based on whether the corresponding component is active. If a component is active, the button for that component will have the "activeButton" class applied to it, changing its appearance to indicate it is the currently selected option.
+
+Usage:
+- This component is likely used in a portfolio or project showcase page, where users can switch between viewing Behance projects and Github repositories.
+
+Note: The code snippet provided ends abruptly, and the onClick handler for the Github button is not shown. Ensure to complete the implementation for full functionality.

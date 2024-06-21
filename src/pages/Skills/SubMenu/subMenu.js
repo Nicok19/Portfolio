@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import UiComponent from '../User-Interface/UiComponent';
 import UxComponent from '../User-Experience/UxComponent';
 import FrontEndComponent from '../Front-End/FeComponent';
-import './subMenu.css';
+import '../../../Styles/subMenu.css';
+
 
 const SubmenuSkills = () => {
     const [activeComponent, setActiveComponent] = useState('ux');

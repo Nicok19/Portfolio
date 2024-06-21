@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import Education from '../Education/Education';
 import References from '../References/References';
 import Experience from '../Experience/Experience';
+import '../../../Styles/subMenu.css';
+
+
 
 const SubMenu = () => {
     const [activeComponent, setActiveComponent] = useState('Experience'); 
