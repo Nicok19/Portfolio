@@ -1,5 +1,5 @@
 import React from 'react';
-import SubmenuSkills from './SubMenu/subMenu__skills'
+import SubmenuSkills from './SubMenu/subMenu'
 import './SkillsStyles.css';
 import './Responsive__SkillsStyles.css';
 

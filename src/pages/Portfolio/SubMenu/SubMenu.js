@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
-import Behance from './Behance';
-import Github from './Github';
+import Behance from '../BehanceAndGithub/Behance';
+import Github from '../BehanceAndGithub/Github';
+import '../../../Styles/subMenu.css';
+
 
 const SubMenu = () => {
     const [activeComponent, setActiveComponent] = useState('Behance'); 

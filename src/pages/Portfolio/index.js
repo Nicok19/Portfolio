@@ -1,8 +1,9 @@
 import React from "react";
-import SubMenu from "./SubMenu";
+import SubMenu from "./SubMenu/SubMenu";
 import './PortfolioStyles.css';
 import './Responsive__portfolioStyles.css';
-import SocialMedia from "./github__behance/gitAndBehance";
+import SocialMedia from "./SocialMedia/gitAndBehance";
+
 
 
 

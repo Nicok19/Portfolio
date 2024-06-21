@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import SubMenu from "./Submenu/SubMenu__resume"; 
+import SubMenu from "./Submenu/SubMenu"; 
 import DownloadResume from "./Download__Resume/DownloadResume";
 import ReactGA from 'react-ga';
 import './resumeElements.css';

@@ -13,6 +13,7 @@ width: 25vw;
 border-radius: 25px;
 border: solid 1px #77D894;
 padding: 10px;
+animation: elementRow 1s ease-in; 
 }
 
 .linkedinPhoto img:hover{
@@ -39,7 +40,18 @@ padding: 10px;
 .contact__element img {
     width: 4vw;
     margin-right: 20px;
+    animation: elementRow 1s ease-in; 
 }
+
+
+      @keyframes elementRow {
+        from {
+          opacity: 0; 
+        }
+        to {
+          opacity: 1; 
+        }
+    }
 
 
 .contact__element a {
@@ -63,33 +75,8 @@ padding: 10px;
     font-weight: medium;
     margin-left: 1vw;
 }
-@media only screen and (max-width: 1000px) {
-    .linkedinPhoto{
-        display: none;
-    }
-}
 
 
-@media only screen and (max-width: 768px) {
-
-    .contact__element h4 {
-     font-size: 4vw;
-    }
-
-    .contact__element a {
-        font-size: 4vw;
-    }
-
-    .contact__element img {
-        width: 8vw;
-        margin-right: 20px;
-    }
-    .contact__element {
-        margin-left:0px;
-    }
-
-   
-}
 
 
 

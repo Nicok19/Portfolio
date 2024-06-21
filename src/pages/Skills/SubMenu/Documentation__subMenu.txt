@@ -1,0 +1,26 @@
+SubMenuSkills.js
+
+This JavaScript file defines a React functional component named SubmenuSkills, which is responsible for rendering a submenu interface that allows users to toggle between three different components: UiComponent, UxComponent, and FrontEndComponent.
+
+Imports:
+- React and useState from 'react': useState is a Hook that allows adding React state to function components.
+- UiComponent from '../User-Interface/UiComponent': This component likely displays content or information related to User Interface (UI) design.
+- UxComponent from '../User-Experience/UxComponent': This component likely displays content or information related to User Experience (UX) design.
+- FrontEndComponent from '../Front-End/FeComponent': This component likely displays content or information related to Front-End development.
+- subMenu.css from '../../../Styles/subMenu.css': This stylesheet is used to apply styles to the SubmenuSkills component.
+
+Component State:
+- activeComponent: A state variable initialized with 'ux'. It is used to track which component (UxComponent, UiComponent, or FrontEndComponent) is currently active.
+
+Functions:
+- handleToggleUx: A function that sets the activeComponent state to 'ux'. It is used to switch to the UxComponent.
+- handleToggleUi: A function that sets the activeComponent state to 'ui'. It is used to switch to the UiComponent.
+- handleToggleFrontEnd: A function that sets the activeComponent state to 'frontend'. This function is intended to switch to the FrontEndComponent, but the implementation is not shown in the provided excerpt.
+
+Render:
+- The component likely returns a div element containing buttons or other UI elements that allow the user to toggle between the UxComponent, UiComponent, and FrontEndComponent. The specific rendering logic and the JSX structure are not included in the provided excerpt.
+
+Usage:
+- This component is likely used in a portfolio, educational, or project showcase page, where users can switch between viewing UI design, UX design, and Front-End development components.
+
+Note: The provided code snippet ends abruptly, and the complete implementation of the handleToggleFrontEnd function and the render method are not shown. Ensure to complete the implementation for full functionality.
