@@ -1,0 +1,109 @@
+/*Laptop*/
+
+@media (max-width: 1440px) {
+  
+    .generalConctactContainer{
+        width: 75%;
+        margin: auto;
+    }
+    
+    .contactInfo{
+        width: 50%;
+    }
+    
+    .contactInfo__title{
+        font-size: 2rem;
+    }
+    
+    .contactInfo__description{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .ContactInfo__Number{
+        font-size: 1rem;
+
+    }
+    
+    .contactInfo-image{
+    width: 5rem
+    }
+}
+
+@media (max-width: 1000px) {
+  
+    
+    .contactInfo__title{
+        font-size: 1.5rem;
+    }
+    
+    .contactInfo__description{
+        font-size: 12px;
+        margin-bottom: 1rem;
+        width: 70%;
+        line-height: 1.3rem;
+    }
+    
+    .ContactInfo__Number{
+        font-size: 12px;
+        margin-bottom: 1rem;
+
+    }
+    
+    .contactInfo-image{
+    width: 5rem
+    }
+}
+
+
+/*Tablet*/
+
+@media (max-width: 768px) {
+  
+    .generalConctactContainer{
+        width: 100%;
+        margin: auto;
+    }
+
+    .containerContact{
+        flex-direction: column;
+    }
+    
+    .contactInfo{
+        width: 100%;
+    }
+    
+    .contactInfo__title{
+        font-size: 2rem;
+    }
+    
+    .contactInfo__description{
+        font-size: 1rem;
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+    
+    .ContactInfo__Number{
+        font-size: 1rem;
+        margin-bottom: 2rem;
+
+    }
+    
+    .contactInfo-image{
+    width: 5rem;
+    margin-bottom: 2rem;
+    }
+}
+
+/*Mobile*/
+
+@media (max-width: 468px) {
+
+
+    .contactInfo-image{
+        width: 8rem;
+        margin-bottom: 5rem;
+        margin-top: 3rem;
+        }
+    
+}

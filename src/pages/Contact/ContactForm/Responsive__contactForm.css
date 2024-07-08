@@ -1,0 +1,131 @@
+/*laptop*/
+
+@media (max-width: 1440px) {
+
+    .contact-form{
+        width: 50%;
+    }
+    
+    .contact-form__elements{
+        margin-bottom: 1rem;
+    }
+    
+    .contact-form__labelWith{
+        margin-bottom: 5px;
+    }
+    
+    .contact-form__label{
+        font-size: 0.8rem;
+        margin-right: 1rem;
+    }
+    
+    
+    .contact-form__input{
+        width: 28vw;
+        height: 1.9rem;
+
+    }
+    
+    .contact-form__textarea{
+        width: 28vw;
+        height: 5rem;
+    }
+    
+    .contact-form__button{
+        width: 7rem;
+        height: 2rem;
+    }
+    
+    .contact-form__button:hover{
+        background-color: #4d4d4d;
+    }
+    
+}
+
+@media (max-width: 1000px){
+
+    .contact-form{
+        width: 50%;
+    }
+    
+    .contact-form__elements{
+        margin-bottom: 1rem;
+    }
+    
+    .contact-form__labelWith{
+        margin-bottom: 5px;
+    }
+    
+    .contact-form__label{
+        font-size: 0.8rem;
+        margin-right: 1rem;
+    }
+    
+    .contact-form__input{
+        height: 1.9rem;
+    }
+    
+    .contact-form__textarea{
+        height: 5rem;
+    }  
+}
+
+/*Tablet*/
+
+@media (max-width: 768px) {
+
+    .contact-form{
+        width: 50%;
+    }
+    
+    .contact-form__elements{
+        margin-bottom: 1rem;
+    }
+    
+    .contact-form__labelWith{
+        margin-bottom: 5px;
+    }
+    
+    .contact-form__label{
+        font-size: 0.8rem;
+        margin-right: 1rem;
+    }
+    
+    .contact-form__input{
+        width: 75vw;
+        height: 5vh;
+    }
+    
+    .contact-form__textarea{
+        width: 75vw;
+        height: 10rem;
+    }
+    
+    .contact-form__button{
+        width: 7rem;
+        height: 2rem;
+        margin-bottom: 30px;
+    }
+    
+    
+}
+
+/*Mobile*/
+
+@media (max-width: 468px) {
+
+    .contact-form__input{
+        width: 65vw;
+    }
+    
+    .contact-form__textarea{
+        width: 65vw;
+    }
+
+
+    .contact-form__button{
+        width: 65vw;
+        height: 3rem;
+    }
+    
+}
