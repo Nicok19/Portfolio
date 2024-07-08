@@ -1,0 +1,29 @@
+ContactForm Component Documentation
+
+Introduction:
+The ContactForm component is a React functional component designed to capture and handle user input for contact information. It utilizes React's useState hook for state management and react-router-dom's useNavigate for navigation post-submission. The component is styled using two CSS files: contactForm.css for the main styling and Responsive__contactForm.css for responsive design adjustments.
+
+Component Structure:
+- Imports:
+  - React and useState from 'react' for building the component and managing state.
+  - useNavigate from 'react-router-dom' for navigation.
+  - contactForm.css and Responsive__contactForm.css for styling.
+
+- State Management:
+  The component maintains two pieces of state using the useState hook:
+  1. formData: An object that holds the values of the form fields. Initially, all fields are set to an empty string. The fields include:
+     - name
+     - surname
+     - company
+     - mail
+     - role
+     - description
+  2. formErrors: An object that tracks the error state of form fields. Initially, the error states for 'name' and 'surname' are set to false, indicating no errors.
+
+- Component Functionality:
+  The ContactForm component is designed to render a form for collecting contact information from the user. It includes input fields for the user's name, surname, company, email, role, and a description. The component also includes logic to validate the input and manage form submission, although the implementation details of these functionalities are not provided in the excerpt.
+
+Usage:
+To use the ContactForm component, simply import it into your React application and include it in your component tree. Ensure that the CSS files are correctly placed in your project structure so they can be successfully imported for styling.
+
+Note: The actual form submission and validation logic needs to be implemented as per the application's requirements. This documentation covers the structure and initial state setup of the ContactForm component based on the provided code excerpt.

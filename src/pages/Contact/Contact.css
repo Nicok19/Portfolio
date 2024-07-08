@@ -1,0 +1,51 @@
+.generalConctactContainer{
+    width: 75%;
+    margin: auto;
+}
+
+.containerContact{
+    display: flex;
+    margin-top: 4rem;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: 5rem;
+}
+
+
+
+.contactInfo{
+    width: 50%;
+}
+
+.contactInfo__title{
+    color: #676666;
+    font-size: 2.3rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.contactInfo__description{
+    color: #676666;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    width: 80%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.ContactInfo__Number{
+    color: #676666;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 35px;
+    margin-bottom: 3rem;
+}
+
+
+.contactInfo-image{
+width: 10rem
+}

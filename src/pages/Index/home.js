@@ -4,11 +4,12 @@ import './Responsive__Home.css';
 import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
 import Presentation from '../Presentation';
 import Resume from '../Resume';
-import Contact from '../Contact';
+import Contact from '../Contact/index';
 import Portfolio from '../Portfolio';
 import Skills from '../Skills';
+import Success from '../Contact/Succecs/Success'; 
 
-function App() {
+const App = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -58,23 +59,23 @@ function App() {
         </nav>
 
         <div className={`elements ${isMenuOpen ? 'menu-open' : ''}`}>
-          {isMenuOpen ? null : (
+          {!isMenuOpen && (
             <header>
               <img src="/elements/nb.png" alt="Logo of Nicolás Bertinat"/>
               <h4>UX/UI Designer and Front End Developer</h4>
             </header>
           )}
 
-                    <div className='routes'>
-                      <Routes>
-                        <Route path="/" element={<Presentation />} />
-                        <Route path="/skills" element={<Skills />} /> 
-                        <Route path="/resume" element={<Resume />} />
-                        <Route path="/portfolio" element={<Portfolio />} />
-                        <Route path="/contact" element={<Contact />} />
-                      
-                      </Routes>
-                    </div>
+          <div className='routes'>
+            <Routes>
+              <Route path="/" element={<Presentation />} />
+              <Route path="/skills" element={<Skills />} /> 
+              <Route path="/resume" element={<Resume />} />
+              <Route path="/portfolio" element={<Portfolio />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/success" element={<Success />} /> 
+            </Routes>
+          </div>
         </div>
 
       </div>
@@ -83,6 +84,7 @@ function App() {
 }
 
 export default App;
+
 
 
 

@@ -1,0 +1,50 @@
+.contact-form{
+    width: 50%;
+}
+
+.contact-form__elements{
+    margin-bottom: 2rem;
+}
+
+.contact-form__labelWith{
+    margin-bottom: 5px;
+}
+
+.contact-form__label{
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+
+.contact-form__input{
+    width: 30rem;
+    height: 2.5rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form__textarea{
+    width: 30rem;
+    height: 7rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form__button{
+    width: 10rem;
+    height: 2.5rem;
+    background-color: #676666;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.contact-form__button:hover{
+    background-color: #4d4d4d;
+}
+
+

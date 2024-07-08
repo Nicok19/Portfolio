@@ -1,0 +1,61 @@
+/*Laptop*/
+
+@media (max-width: 1000px) {
+    .success__title{
+        font-size: 2.5vw;
+    }
+
+    .success__description{
+        font-size: 1.5vw;
+        text-align: center;
+    }
+}
+
+
+/*tablet*/
+
+@media (max-width: 768px) {
+    .success{
+        margin-right: 30px;
+    }
+    
+    .success__title{
+        font-size: 4vw;
+    }
+    
+    .success__description{
+        font-size: 3vw;
+        text-align: center;
+    }
+    
+    .success__button{
+        font-size: 2.5vw;
+        padding: 2vw 3vw;
+    }
+}
+
+/*mobile*/
+
+@media (max-width: 468px) {
+
+
+
+
+
+    .success__title{
+        font-size: 6vw;
+        margin-left: 7vw;
+    }
+    
+    .success__description{
+        font-size: 4vw;
+        margin-left: 3vw;
+        text-align: center;
+    }
+    
+    .success__button{
+        font-size: 5vw;
+        padding: 3vw 4vw;
+        margin-left: 5vw;
+    }
+}
