@@ -27,7 +27,7 @@
 @media screen and (max-width: 480px) {
     .imageContainer {
         margin-bottom: 10px;
-        margin-right: 2px;
+        margin-right: 10vw;
         
       }
 
