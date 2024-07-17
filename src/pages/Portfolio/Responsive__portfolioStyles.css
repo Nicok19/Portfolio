@@ -50,7 +50,7 @@
       flex-wrap: wrap; 
       width: 70vw;
       padding-bottom: 40px;
-      padding-bottom: 90px;
+      padding-bottom: 140px;
       margin-left: 0%;
     }
     
@@ -62,8 +62,9 @@
     }
 
     .portfolio__image {
-        width: 100%; 
+        width: 86%; 
     }
+
 }
 
 

@@ -7,7 +7,7 @@ import Resume from '../Resume';
 import Contact from '../Contact/index';
 import Portfolio from '../Portfolio';
 import Skills from '../Skills';
-import Success from '../Contact/Succecs/Success'; 
+import Success from '../Contact/Succecs/Success';
 
 const App = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -77,13 +77,15 @@ const App = () => {
             </Routes>
           </div>
         </div>
-
       </div>
     </Router>
   );
 }
 
 export default App;
+
+
+
 
 
 

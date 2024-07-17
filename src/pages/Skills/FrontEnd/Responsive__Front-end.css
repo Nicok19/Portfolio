@@ -66,9 +66,10 @@
 
   .languages {
     width: 80%;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     margin-top: 2rem;
+    align-items: flex-start;
   }
 
   .languages__container {
