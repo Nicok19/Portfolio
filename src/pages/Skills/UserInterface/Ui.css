@@ -1,23 +1,37 @@
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.imageContainer {
+  display: inline-block;
+  animation: fadeIn 2s ease-in-out; 
+}
+
+
 .designPrograms {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    width: 60%;
-  }
-  
-  .imageContainer img {
-    width: 80px;
-  }
-  
-  .imageContainer p {
-    text-align: center;
-    font-size: 13px;
-  }
-  
-  .imageContainer {
-    display: inline-block;
-  }
-  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 60%;
+}
+
+
+.imageContainer img {
+  width: 80px;
+}
+
+
+.imageContainer p {
+  text-align: center;
+  font-size: 13px;
+}
+
