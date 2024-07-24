@@ -1,4 +1,4 @@
-name: Build and Test
+name: Custom Build and Test
 
 on:
   push:
@@ -10,14 +10,24 @@ on:
 
 jobs:
   build:
+    name: Build and Test Job - ${{ github.event_name == 'push' && 'Push' || 'PR' }} - ${{ github.actor }}
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
-      - name: Set up Node.js
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js 20
         uses: actions/setup-node@v3
         with:
-          node-version: '14'
-      - run: npm install
-      - run: npm run build
-      - run: npm test
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project
+        run: npm run build
+
+      - name: Run tests
+        run: npm test
+
