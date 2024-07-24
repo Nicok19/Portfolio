@@ -7,16 +7,22 @@ on:
 
 jobs:
   security:
+    name: Security Audit Job - ${{ github.event_name == 'schedule' && 'Scheduled' || 'Manual' }} - ${{ github.actor }}
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
 
       - name: Set up Trivy
-        uses: aquasecurity/trivy-action@v0.8.0
-        with:
-          version: 'latest'
+        run: |
+          curl -sfL https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/install.sh | sh -
+          sudo mv trivy /usr/local/bin/
 
       - name: Run Trivy scan
         run: trivy fs --exit-code 1 --no-progress .
@@ -43,4 +49,3 @@ jobs:
               }
             } else {
               core.setFailed('No report found');
-            }

@@ -7,14 +7,15 @@ on:
 
 jobs:
   deploy:
+    name: Deploy Job - ${{ github.event_name == 'push' && 'Push' || 'Manual' }} - ${{ github.actor }}
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '14'
+          node-version: '20'
       - run: npm install
       - run: npm run build
       - name: Deploy to Vercel
