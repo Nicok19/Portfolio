@@ -1,5 +1,3 @@
-name: Lint Code
-
 on:
   push:
     branches:
@@ -10,7 +8,7 @@ on:
 
 jobs:
   lint:
-    name: Lint Job - ${{ github.event_name == 'push' && 'Push' || 'PR' }} - ${{ github.actor }}
+    name: Lint Job - ${{ github.event_name == 'push' && 'Push' || 'pull_request' && 'PR' }} - ${{ github.actor }}
     runs-on: ubuntu-latest
 
     steps:
