@@ -20,7 +20,7 @@ const References = () => {
                             <button className="referenceContactButton" >Contact</button>
                             </a>
                         </div>
-                        <img className="referenceImage" src="/elements/guillermo.jpeg" alt="Guillermo Garrone" />
+                        <img className="referenceImage" src="https://imgur.com/9MTba1r.jpeg" alt="Guillermo Garrone" />
                     </div>
 
                     <div className="professionalRow__reference">
@@ -31,7 +31,7 @@ const References = () => {
                             <button className="referenceContactButton">Contact</button>
                             </a>
                         </div>
-                        <img className="referenceImage" src="/elements/pablo.jpeg" alt="Pablo Etcheverry" />
+                        <img className="referenceImage" src="https://imgur.com/mURO0lo.jpeg" alt="Pablo Etcheverry" />
                     </div>
                 </div>
 
@@ -47,7 +47,7 @@ const References = () => {
                             <button className="referenceContactButton">Contact</button>
                             </a>
                         </div>
-                        <img className="referenceImage" src="/elements/dinorah.jpeg" alt="Dinorah Margounato" />
+                        <img className="referenceImage" src="https://imgur.com/QTnUCFf.jpeg" alt="Dinorah Margounato" />
                     </div>
 
 
@@ -59,7 +59,7 @@ const References = () => {
                             <button className="referenceContactButton">Contact</button>
                             </a>
                         </div>
-                        <img className="referenceImage" src="/elements/sergio.jpeg" alt="Sergio Álvarez" />
+                        <img className="referenceImage" src="https://imgur.com/jLLU1wD.jpeg" alt="Sergio Álvarez" />
                     </div>
                 </div>
             </div>

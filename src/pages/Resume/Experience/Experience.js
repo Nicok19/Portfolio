@@ -13,7 +13,7 @@ const Experience = () => {
 
 
                     <div className="experience__workAndPhoto">
-                        <img className="experience__photo" src="/elements/nbIsotipo.png" alt="Logo of freelance Nicolás Bertinat" />
+                        <img className="experience__photo" src="https://imgur.com/yyWqLUv.png" alt="Logo of freelance Nicolás Bertinat" />
                         <div className="experience__work">
                             <h3>UX/UI Developer</h3>
                             <h4>Freelance Professional</h4>
@@ -24,7 +24,7 @@ const Experience = () => {
 
 
                     <div className="experience__workAndPhoto">
-                        <a href="https://www.franklincovey.com/about/"><img className="experience__photo"   src="/elements/fc.png" alt="FranklinCovey link" /></a>
+                        <a href="https://www.franklincovey.com/about/"><img className="experience__photo"   src="https://imgur.com/ZRbPcFx.png" alt="FranklinCovey link" /></a>
                         <div className="experience__work">
                             <h3>UX/UI Designer</h3>
                             <h4>Franklin Covey</h4>
@@ -38,7 +38,7 @@ const Experience = () => {
 
 
                     <div className="experience__workAndPhoto">
-                        <a href="https://www.glendaledesigns.com/"><img className="experience__photo" src="/elements/gs.png" alt="Glendale Studio link" /></a>
+                        <a href="https://www.glendaledesigns.com/"><img className="experience__photo" src="https://imgur.com/PZTnEEs.png" alt="Glendale Studio link" /></a>
                         <div className="experience__work">
                             <h3>UX/UI Designer</h3>
                             <h4>Glendale</h4>
@@ -48,7 +48,7 @@ const Experience = () => {
 
 
                     <div className="experience__workAndPhoto">
-                        <a href="https://www.bdestudio.com.uy/15-anos"><img className="experience__photo" src="/elements/bd.png" alt="Bd Studio link" /></a>
+                        <a href="https://www.bdestudio.com.uy/15-anos"><img className="experience__photo" src="https://imgur.com/cTp1RMP.png" alt="Bd Studio link" /></a>
                         <div className="experience__work">
                             <h3>Photographer</h3>
                             <h4>BD Studio</h4>
@@ -60,7 +60,7 @@ const Experience = () => {
 
 
             <div className="me">
-                    <img className="me__photo" src="/elements/contactonb.png" alt="Logo of Nicolás Bertinat" />
+                    <img className="me__photo" src="https://imgur.com/5cSO25i.png" alt="Logo of Nicolás Bertinat" />
                 </div>
 
 

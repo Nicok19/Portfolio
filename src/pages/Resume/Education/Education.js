@@ -11,7 +11,7 @@ const Education = () => {
             <h3 className="education__title">University Education:</h3>
             <div className="education__row">
                 <div className="education__degree">
-                    <a href="https://www.ort.edu.uy/"><img src="/elements/ort.png"  className="education__image" alt="Ort University link"/></a>
+                    <a href="https://www.ort.edu.uy/"><img src="https://imgur.com/MXleNKN.png"  className="education__image" alt="Ort University link"/></a>
                     <div className="education__cards">
                         <h3>Marketing Analyst</h3>
                         <h4>Ort University</h4>
@@ -19,7 +19,7 @@ const Education = () => {
                     </div>
                 </div>
                 <div className="education__degree">
-                    <a href="https://www.ort.edu.uy/"><img src="/elements/ort.png" className="education__image" alt="Ort University link"/></a>
+                    <a href="https://www.ort.edu.uy/"><img src="https://imgur.com/MXleNKN.png" className="education__image" alt="Ort University link"/></a>
                     <div className="education__cards">
                         <h3>Graphic Design</h3>
                         <h4>Ort University</h4>
