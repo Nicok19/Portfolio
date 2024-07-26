@@ -19,7 +19,7 @@ import "./Responsive__Contact.css";
         <h3 className="ContactInfo__Number">Cell Phone: (+598) 92978411</h3>
 
         <a href="https://www.linkedin.com/in/nicol%C3%A1s-bertinat-de-los-santos/">
-         <img src="/elements/linkedinGreen.png" alt="Linkedin" class="contactInfo-image" />
+         <img src="https://imgur.com/5USzw5l.png" alt="Linkedin" class="contactInfo-image" />
          </a>
 
 

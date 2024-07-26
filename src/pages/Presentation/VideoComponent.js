@@ -5,8 +5,8 @@ const VideoComponent = () => {
 
   return (
     <div className='videoElement'>
-      <video ref={videoRef} controls poster="/elements/graph.png">
-        <source src="/elements/Resume-Video.mp4" type="video/mp4" />
+      <video ref={videoRef} controls poster="https://imgur.com/COvVifu.png">
+        <source src="https://imgur.com/AaJP17s.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     </div>

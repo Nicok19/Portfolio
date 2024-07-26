@@ -61,7 +61,7 @@ const App = () => {
         <div className={`elements ${isMenuOpen ? 'menu-open' : ''}`}>
           {!isMenuOpen && (
             <header>
-              <img src="/elements/nb.png" alt="Logo of Nicolás Bertinat"/>
+              <img src="https://imgur.com/xLJJBUD.png" alt="Logo of Nicolás Bertinat"/>
               <h4>UX/UI Designer and Front End Developer</h4>
             </header>
           )}
