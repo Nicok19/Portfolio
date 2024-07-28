@@ -2,3 +2,13 @@
     width: 85%;
     margin: auto;
 }
+
+@media screen and (max-width: 480px) {
+
+    .resumeElements{
+        width: 100vw;
+        padding-left: 30px;
+    }
+    
+
+}

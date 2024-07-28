@@ -44,3 +44,13 @@
 
 
 }
+
+@media screen and (max-width: 468px) {
+
+  .buttonCarrusel{
+  margin-top: 3rem;
+
+  }
+
+
+}

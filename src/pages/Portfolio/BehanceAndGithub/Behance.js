@@ -3,6 +3,9 @@ import React from "react";
 const Behance = () => {
     return (
         <div>
+           <div className="HideForMobile">
+            <p className="HideForMobile__paragraph"> Tap on one of the projects to view it in detail.</p>
+           </div>
             <div className="portfolio">
                 <a href="https://www.behance.net/gallery/137845083/Apk-WorldJob/" target="_blank" rel="noopener noreferrer">
                     <img src="https://imgur.com/GYCcR9v.png" className="portfolio__image" alt="Worldjob on Behance" />
