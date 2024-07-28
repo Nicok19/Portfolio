@@ -1,6 +1,19 @@
 .portfolioElements{
   width: 85%;
   margin: auto;
+
+}
+
+.HideForMobile{
+  display: block;
+}
+.HideForMobile__paragraph{
+  margin-top: 1.5rem;
+  max-width: 90%;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  color: #676666;
+  margin-left: 7%;
 }
 
 
@@ -8,11 +21,10 @@
   display: flex;
   flex-wrap: wrap;
   animation: elementRow 1s ease-in; 
-  padding-top: 5vh;
+  padding-top: 1vh;
   margin-left: 7%;
-
-
 }
+
 
 
         @keyframes elementRow {

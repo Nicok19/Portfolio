@@ -94,6 +94,15 @@
     
   @media screen and (max-width: 480px) {
   
+.presentationElement{
+  width: 100vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
   .forCell{
     display: block;
     width: 100%;
@@ -102,29 +111,32 @@
   
   .forCell h3{
     color: #676666;
-    font-size: 35px;
+    font-size: 2.5rem;
+    font-weight: bold;
     font-weight: 500; 
     margin-bottom: 20px;
     margin-top: 50px;
-    width: 70vw;
     text-align: center;
   }
   
   .forCell p{
-    width: 70vw;
+    width: 80vw;
   line-height: 1.5;
   padding-bottom: 30px;
   text-align: center;
+  font-size: 1rem;
   
   
   }
   .videoElement{
-    width: 70vw;
+    width: 100vw;
+    margin-top: 50px;
+    margin-right: 0px;
  
     
   }
     .videoElement video{
-      width: 70vw;
+      width: 90vw;
       margin-left: 0px;
     }
   

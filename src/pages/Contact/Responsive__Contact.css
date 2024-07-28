@@ -99,11 +99,35 @@
 
 @media (max-width: 468px) {
 
+    .generalConctactContainer{
+        width: 100vw;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contactInfo__description{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        width: 80%;
+        line-height: 1.3rem;
+    }
 
     .contactInfo-image{
         width: 8rem;
         margin-bottom: 5rem;
         margin-top: 3rem;
         }
-    
+        .contactInfo{
+            width: 80vw;
+            margin : auto;
+        }
+
+        .containerContact{
+         margin-left: 15vw;
+
+        }
+
+
 }

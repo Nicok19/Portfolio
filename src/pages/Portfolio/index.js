@@ -13,11 +13,12 @@ const Portfolio = () =>{
     return(
 
         <div className ="portfolioElements">
+        
             <SubMenu/>
             <SocialMedia/>
-
-        </div>
+            </div>
     )
+
 }
 
 export default Portfolio

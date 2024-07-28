@@ -10,17 +10,26 @@
 }
 
   .portfolio__image {
-    width: 16vw; 
+    width: 15vw; 
   }
 
+  .HideForMobile__paragraph{
+    margin-top: 1rem;
+    max-width: 90%;
+    line-height: 1.5;
+    font-size: 1rem;
+    color: #676666;
+    margin-left: 7%;
+  }
+  
+
 }
-
-
 
 
 /* Tablet*/
 
 @media only screen and (max-width: 768px) {
+
 
   .portfolio a {
     flex-grow: 1;
@@ -45,25 +54,42 @@
  
 /* Cellphone*/
   @media only screen and (max-width: 480px) {
+
+    .portfolioElements{
+      width: 100vw;
+      margin: auto;
+    
+    }
+
+
     .portfolio {
       display: flex;
+      justify-content: center;
+      align-items: center;
       flex-wrap: wrap; 
-      width: 70vw;
+      width: 100vw;
       padding-bottom: 40px;
       padding-bottom: 140px;
-      margin-left: 0%;
+      margin: 0px;
     }
     
     .portfolio a {
         flex-basis: 100%; 
-        max-width: 100%; 
+       width: 100%; 
+       display: flex;
+       justify-content: center;
         margin-right: 0; 
         margin-top: 20px;
     }
 
     .portfolio__image {
-        width: 86%; 
+        width: 90%;  
     }
+    .HideForMobile__paragraph{
+      max-width: 80%;
+      text-align: center;
+    }
+
 
 }
 

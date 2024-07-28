@@ -153,7 +153,6 @@
     
     .experience__firstRow {
         margin-top: 0px;
-
         padding-top: 0px;
     }
 
@@ -167,7 +166,9 @@
 
 @media screen and (max-width: 480px) {
 
-
+.experience{
+    padding-bottom: 50px;
+}
     .experience__rows {
         padding-top: 0rem;
         margin-top: 0px;
@@ -198,9 +199,8 @@
     }
 
     .experienceAndPhoto{
-
-        justify-content: flex-start;
-        align-items:flex-start;
+        width: 100vw;
+        margin: auto;
     }
 
     .experience__photo {

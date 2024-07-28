@@ -152,6 +152,29 @@ font-size: 0.7rem;
         display: none;
     }
 
+    .references{
+        width: 85vw;
+        margin: auto;
+        
+    }
+
+    .referenceContactButton{
+        font-size: 1rem;
+        margin-top: 0.8rem;
+        }
+
+        .referenceCards h4 {
+            font-size: 1rem;
+            width: 100%;
+        }
+
+        .referenceCards h3 {
+            font-size: 1.5rem;
+            width: 100%;
+
+        }
+        
+
 }
 
 

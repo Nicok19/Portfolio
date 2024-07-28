@@ -233,7 +233,11 @@
 @media screen and (max-width: 480px) {
 
 
- 
+ .education{
+width: 80vw;
+ }
+
+
     .education__title{
         font-size: 1.3rem;
         font-weight: 500;
@@ -246,7 +250,7 @@
     }
     
     .education__image {
-        width: 4rem;
+        width: 3rem;
         margin-right: 0.5rem;
     }
     
@@ -265,16 +269,15 @@
     
    
     .education__cards h3 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         line-height: normal;
         margin-bottom: 1vh;
     }
     
     .education__cards h4 {
-
         font-size: 1rem;
         margin-bottom: 1vh;
-    ;
+    
     }
     
     .education__cards p {
@@ -284,18 +287,22 @@
     /* Bootcamps */
 
 
-
+.bootcamp{
+    margin-bottom: 1rem;
+}
 
 .bootcamp h3 {
-    font-size: 1rem;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
 }
 
 .bootcamp h4 {
-    font-size: 0.8rem;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
 }
 
 .bootcamp p {
-    font-size: 0.7rem;
+    font-size: 1rem;
 
 }
 
@@ -312,7 +319,7 @@
 
 .titleElement h3 {
     color: black;
-    font-size: 15px;
+    font-size: 30px;
     font-weight: 500;
     margin-top: 23px;
 }
