@@ -26,10 +26,7 @@ const FrontEndComponent = () => {
                     <img className="languages__image"  src="https://imgur.com/9k2MosW.png" alt="Css" placeholder="Css" />
                     <p className="languages__paragraph" >Css</p>
                 </div>
-                <div className="languages__container">
-                    <img className="languages__image"  src="https://imgur.com/MaItNYx.png" alt="Sass" placeholder="Sass" />
-                    <p className="languages__paragraph" >Sass</p>
-                </div>
+            
                 <div className="languages__container">
                     <img className="languages__image"  src="https://imgur.com/2jOoNxl.png" alt="JavaScript" placeholder="JavaScript" />
                     <p  className="languages__paragraph" >JavaScript</p>
@@ -41,6 +38,10 @@ const FrontEndComponent = () => {
                 <div className="languages__container">
                     <img className="languages__image"  src="https://imgur.com/i3cpt4r.png" alt="Next.js" placeholder="Next.js" />
                     <p className="languages__paragraph" >Next.js</p>
+                </div>
+                <div className="languages__container">
+                    <img className="languages__image"  src="https://imgur.com/ppSyFGr.png" alt="Sass" placeholder="Sass" />
+                    <p className="languages__paragraph" >Tailwind</p>
                 </div>
                 <div className="languages__container">
                     <img className="languages__image"  src="https://imgur.com/GOOMmcY.png" alt="TypeScript" placeholder="TypeScript" />
